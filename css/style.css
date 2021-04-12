@@ -1,4 +1,4 @@
-img {
+.img1 {
 	width: 50px;
 	height: 50px;
 }
@@ -8,4 +8,29 @@ img {
 .copyleft {
     display: inline-block;
     transform: rotate(180deg);
+}
+ul{
+    background-color: #333 !important;
+}
+li{
+    background-color: #333 !important;
+}
+body {
+    background-color: #334 !important;
+    color: white !important;
+}
+header{
+    background-color: #333!important;
+}
+footer{
+    background-color: #333!important;
+}
+a{
+    color: white !important;
+}
+imgcote{
+    float: left !important;
+}
+article{
+    text-align: center;
 }
