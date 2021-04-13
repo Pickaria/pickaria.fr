@@ -27,10 +27,14 @@ footer{
 }
 a{
     color: white !important;
+    text-decoration: none !important;
 }
 imgcote{
     float: left !important;
 }
 article{
     text-align: center;
+}
+button{
+    background-color: #333!important;
 }

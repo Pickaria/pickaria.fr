@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pickaria</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/pickaria.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!--     <link rel="stylesheet" href="https://quozul.dev/public/styles/index/bootstrap.min.css">
+             <script src="https://quozul.dev/public/bootstrap/bootstrap.bundle.min.js"></script> -->
+        <link rel="shortcut icon" href="img/logo.png" type="image/png">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light container shadow-lg rounded backdrop-blur">
+                <div class="container-fluid">
+
+                    <ul class="align mx-auto list-group  ">
+                        <h5>Rejoignez-nous sur Pickaria ! :</h5>
+                        <li class="list-group-item">
+                            <a onclick="setClipboardClassic()">Version Classic 1.16.4+</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a onclick="setClipboardSnapshot()">Version Snapshot 1.17 </a>
+                        </li>
+                    </ul>
+                    <ul class="align mx-auto ms-lg-0">
+                        <a href="https://www.Pickaria.fr"><img class="img1 rounded" src="img/logo.png" alt=""></a>
+                        <section class="align">
+                            Pickaria - Serveur Minecraft Survival Français
+                        </section>
+                    </ul>
+                    <ul class="align me-auto list-group  ">
+                        <h5>Rejoignez-nous sur Pickaria ! :</h5>
+                        <li class="list-group-item">
+                            <a href="https://discord.gg/YR6fVaS">Discord</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="https://twitter.com/Pickaria">Twitter </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class=" px-auto container text-center rounded shadow-lg p-5 text-white mb-5">
+                <h1>Pickaria Snapshot</h1>
+
+                <h2 style="cursor: pointer;" onclick="navigator.clipboard.writeText('snapshot.pickaria.fr')">
+                    <pre>snapshot.pickaria.fr</pre>
+                </h2>
+                <p>
+                    Pickaria possède un serveur utilisant la dernière version de Minecraft.<br>
+                    Tu trouveras sur cette page des informations comment rejoindre ce serveur.<br>
+                    <small class="text-muted">La version snapshot à la date de redaction de cet article est la version
+                        21w13a.</small>
+                </p>
+            </section>
+            <section class="container text-center  rounded shadow-lg p-5 text-white my-5">
+                <h2>Foire aux questions</h2>
+                <div class="accordion" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Comment démarrer Minecraft en snapshot ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                             data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="d-flex flex-column">
+                                    <figure class="figure">
+                                        <img src="assets/1.png" class="figure-img img-fluid rounded"
+                                             alt="Ouvrir le launcher de Minecraft">
+                                        <figcaption class="figure-caption text-white">Démarrez le launcher puis accédez à
+                                            l'onglet "Configuration".
+                                        </figcaption>
+                                    </figure>
+                                    <figure class="figure">
+                                        <img src="assets/2.png" class="figure-img img-fluid rounded"
+                                             alt="Cocher la case Snapshot">
+                                        <figcaption class="figure-caption text-white">Cocher la case "Snapshot".</figcaption>
+                                    </figure>
+                                    <figure class="figure">
+                                        <img src="assets/3.png" class="figure-img img-fluid rounded"
+                                             alt="Cocher la case Snapshot">
+                                        <figcaption class="figure-caption text-white">Tu es fin prêt à nous rejoindre !
+                                            Sélectionne la bonne version et clique sur jouer !
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Comment ajouter Pickaria à ma liste de serveurs ?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                             data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <div class="d-flex flex-column">
+                                    <figure class="figure">
+                                        <img src="assets/7.png" class="figure-img img-fluid rounded"
+                                             alt="Cliquer sur Multijoueur">
+                                        <figcaption class="figure-caption text-white">Une fois le jeu lancé, clique sur
+                                            "Multijoueur"
+                                        </figcaption>
+                                    </figure>
+                                    <figure class="figure">
+                                        <img src="assets/8.png" class="figure-img img-fluid rounded"
+                                             alt="Cliquer sur Nouveau server">
+                                        <figcaption class="figure-caption text-white">Clique sur "Nouveau serveur".</figcaption>
+                                    </figure>
+                                    <figure class="figure">
+                                        <img src="assets/9.png" class="figure-img img-fluid rounded"
+                                             alt="Renseigner les informations puis valider.">
+                                        <figcaption class="figure-caption text-white">
+                                            Dans le champ "Nom du serveur" tu peux écrire le nom que tu souhaite.<br>
+                                            Dans le champ "Adresse du serveur", renseigne "snapshot.pickaria.fr".
+                                        </figcaption>
+                                    </figure>
+                                    <figure class="figure">
+                                        <img src="assets/10.png" class="figure-img img-fluid rounded" alt="Rejoindre !">
+                                        <figcaption class="figure-caption text-white">Une fois le serveur ajouté, il ne te reste
+                                            plus qu'à cliquer sur "Rejoindre" !
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="container">
+            <div class="rounded mt-3 mb-3 text-center p-3 container shadow-lg rounded">
+                <span class="copyleft">&copy</span> Copyleft - Pickaria - 2021
+            </div>
+        </footer>
+    </body>
+</html>
