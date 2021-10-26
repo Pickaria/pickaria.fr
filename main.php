@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    <main>
+        <div class="container">
+            <div class="row">
+            </div>
+        </div>
+        <section class="container">
+            <article class="row">
+                <div class="p-4 p-md-4 mb-4 text-white rounded ">
+                    <div class="col-md-12 px-0">
+                        <h1 class="display-4 fst-italic">Bienvenue sur Pickaria !</h1>
+                        <p class="lead my-3">Pickaria est un serveur minecraft français qui a ouvert ses portes pour la
+                            première fois en 2018.
+                            <br>Il est constitué d'un serveur classique 1.16.4+ et d'un serveur en Snapshot 1.17 </p>
+                        <!-- <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>-->
+                        <img class="imgcote" src="img/meilleurs-seeds-graines-minecraft-1-14-ferme-animaux-plat.jpg">
+                    </div>
+                </div>
+            </article>
+            <hr>
+        </section>
+        <div class="container ">
+
+        <div class="row ">
+  <div class="col-md-3">
+    <div class="card bg-dark">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card bg-dark">
+      <div class="card-body">
+        <h5 class="card-title">Nouveau site!</h5>
+        <p class="card-text">Pickaria s'équipe enfin d'un site web !<br>Vous y trouverez ses news et annonces tout au long de l'aventure !</p>
+        <a href="./news.php" class="btn btn-primary">Lien de la news</a>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        <!--<article class="row">
+            <div class="col-md-3 ms-auto">
+
+            </div>
+            <div id="carouselExampleControls" class="carousel col-md-6 slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col-md-2 ms-auto">
+
+                        </div>
+                        <div class="card bg-dark col-md-2 mx-auto" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Nouveau site!</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Pickaria.fr</h6>
+                                <p class="card-text">Pickaria s'équipe enfin d'un site web !<br>Vous y trouverez ses news et annonces tout au long de l'aventure !</p>
+                                <a href="#" class="card-link">Lien de la news</a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 me-auto">
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-2 ms-auto">
+
+                        </div>
+                        <div class="card bg-dark col-md-2 mx-auto" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Pickaria Snapshot</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Pickaria est aussi en Snapshot! </h6>
+                                <p class="card-text">Nous nous sommes dit que commencer une aventure en Snapshot pour découvrir la 1.17 ensemble était une
+                                bonne idée! <br> Alors nous avons décidé de mettre en place un serveur Pickaria !</p>
+                                <a href="https://beta.pickaria.fr/snapshot.html" class="card-link">Guide pour s'y connecter!</a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 me-auto">
+
+                        </div>
+                    </div>
+             <!--     <div class="carousel-item">
+                        <div class="col-md-2 ms-auto">
+
+                        </div>
+                        <div class="card bg-dark col-md-2 mx-auto" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 me-auto">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 me-auto">
+
+            </div>
+        </article>-->
+        <hr>
+        </section>
+    </main>
+</body>
+    </html>
