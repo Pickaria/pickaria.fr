@@ -1,1 +1,3 @@
-Ne pas prendre en compte le nombre incalculable de fichier j'ai pas nettoyer du tout
+Site de Pickaria développer par AHajïn avec l'aide de Quozul
+
+- BDD intégré au fichier
