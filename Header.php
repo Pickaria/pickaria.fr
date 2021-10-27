@@ -18,10 +18,10 @@
                     <ul class="align col-md-4 ms-auto list-group  ">
                         <h5>Cliquer pour copier ! :</h5>
                         <li class="list-group-item">
-                            <a onclick="setClipboardClassic()">Version Classic 1.16.4+</a>
+                            <a onclick="setClipboardClassic()">Version Classic 1.17.1+</a>
                         </li>
                         <li class="list-group-item">
-                            <a onclick="setClipboardSnapshot()">Version Snapshot 1.17 </a>
+                            <a onclick="setClipboardSnapshot()">Version Snapshot 1.18 </a>
                         </li>
                     </ul>
                     <ul class="align col-md-4 mx-auto ms-lg-0">
@@ -33,10 +33,10 @@
                     <ul class="align col-md-4 me-auto list-group  ">
                         <h5>Nos réseaux sociaux ! :</h5>
                         <li class="list-group-item">
-                            <a href="https://discord.gg/YR6fVaS">Discord</a>
+                            <a  rel="noopener noreferrer" target="_blank" href="https://discord.gg/YR6fVaS" >Discord</a>
                         </li>
                         <li class="list-group-item">
-                            <a href="https://twitter.com/Pickaria">Twitter</a>
+                            <a  rel="noopener noreferrer" target="_blank" href="https://twitter.com/Pickaria" >Twitter</a>
                         </li>
                     </ul>
                 </div>

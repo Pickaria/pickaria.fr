@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-    </head>
     <body>
     <main>
         <div class="container">
@@ -27,21 +22,22 @@
         <div class="container ">
 
         <div class="row ">
-  <div class="col-md-3">
-    <div class="card bg-dark">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
+
   <div class="col-md-3">
     <div class="card bg-dark">
       <div class="card-body">
         <h5 class="card-title">Nouveau site!</h5>
         <p class="card-text">Pickaria s'équipe enfin d'un site web !<br>Vous y trouverez ses news et annonces tout au long de l'aventure !</p>
         <a href="./news.php" class="btn btn-primary">Lien de la news</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card bg-dark">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
   </div>
@@ -112,5 +108,3 @@
         <hr>
         </section>
     </main>
-</body>
-    </html>

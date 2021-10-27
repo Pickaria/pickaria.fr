@@ -15,7 +15,7 @@ require_once "header.php";
                         <h1 class="display-4 fst-italic">Bienvenue sur Pickaria !</h1>
                         <p class="lead my-3">Comme vous pouvez le voir, votre serveur favoris s'équipe d'un tout nouveau site web ! il sera mis a jour le plus souvent possible avec divers news tout au long de l'aventures et permettra d'avoir un suivis sur l'état du serveur !
                             <br>Il est constitué d'un serveur classique 1.16.4+ et d'un serveur en Snapshot 1.17 </p>
-                            <p class="lead my-3">le site permettra au staff de communiquer avec vous via differents articles, vous pouvez voir ça comme un blog!
+                            <p class="lead my-3">le site permettra au staff de communiquer avec vous via differents articles, vous pouvez voir ça comme un blog!</p>
 
                         <!-- <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>-->
                         
@@ -30,6 +30,7 @@ require_once "header.php";
 </body>
     </html>
 <?php
+echo '<footer class="fixed-bottom">';
 require_once "footer.php";
 
 ?>
