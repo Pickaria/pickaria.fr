@@ -3,7 +3,6 @@ $bdd = new PDO ('mysql:host =localhost;dbname=pickaria','root','');
 
 $sql= 'SELECT * FROM article';
 ?>
-<body>
     <main>
         <div class="container">
             <div class="row">
