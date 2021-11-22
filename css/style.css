@@ -10,31 +10,38 @@
     transform: rotate(180deg);
 }
 ul{
-    background-color: #333 !important;
+    background-color: #2a99b2 !important;
 }
 li{
-    background-color: #333 !important;
+    background-color: #2a99b2 !important;
 }
 body {
-    background-color: #334 !important;
-    color: white !important;
+    background-color: white !important;
+    color: black !important;
 }
 header{
-    background-color: #333!important;
+    background-color: #2a99b2 !important;
 }
 footer{
-    background-color: #333!important;
+    background-color: #2a99b2!important;
 }
 a{
     color: white !important;
     text-decoration: none !important;
 }
-imgcote{
-    float: left !important;
+.imgcote{
+    width: 768px;
+    height: 480px;
+}
+.linkiris{
+    color: #fd7e14 !important;
 }
 article{
     text-align: center;
 }
 button{
-    background-color: #333!important;
+    background-color: #2a99b2!important;
+}
+.card-link{
+    color: black!important;
 }

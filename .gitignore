@@ -1,9 +1,1 @@
 .idea
-.gitignore
-*.crt
-*.key
-.env
-.idea
-index/
-html/
-
