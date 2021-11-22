@@ -10,20 +10,24 @@
     transform: rotate(180deg);
 }
 ul{
-    background-color: #2a99b2 !important;
+    background-color: #87CEEB !important;
 }
 li{
-    background-color: #2a99b2 !important;
+    background-color: #87CEEB !important;
 }
 body {
     background-color: white !important;
     color: black !important;
+    font-family: Bahnschrift !important;
 }
 header{
-    background-color: #2a99b2 !important;
+    background-color: #87CEEB !important;
 }
 footer{
-    background-color: #2a99b2!important;
+    background-color: #87CEEB!important;
+}
+img{
+    border-radius: 10px;
 }
 a{
     color: white !important;
@@ -40,7 +44,7 @@ article{
     text-align: center;
 }
 button{
-    background-color: #2a99b2!important;
+    background-color: #87CEEB!important;
 }
 .card-link{
     color: black!important;
