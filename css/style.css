@@ -9,10 +9,8 @@
     display: inline-block;
     transform: rotate(180deg);
 }
-ul{
-    background-color: #87CEEB !important;
-}
-li{
+
+.li-back{
     background-color: #87CEEB !important;
 }
 body {

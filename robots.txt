@@ -1,2 +1,7 @@
 User-agent: *
-Disallow: *
+Allow: /
+Disallow: /assets/*
+Disallow: /scripts/*
+Disallow: /styles/*
+
+Sitemap: https://www.pickaria.fr/sitemap.xml
