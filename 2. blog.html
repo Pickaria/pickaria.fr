@@ -6,10 +6,9 @@ menu: true
 ---
 
 <section class="container px-4 py-5" id="custom-cards">
-    <h2 class="pb-2 border-bottom" id="last_articles">Derniers articles</h2>
+    <h2 class="pb-2 border-bottom" id="last_articles">Tous les articles</h2>
 
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {% for post in site.posts %}
         <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
@@ -34,9 +33,8 @@ menu: true
                             <svg class="bi me-2" width="1em" height="1em">
                                 <use xlink:href="#calendar3"></use>
                             </svg>
-                            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}"
-                                itemprop="datePublished">
-                                {{ page.date | date: date_format }}
+                            <time class="dt-published-ago" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+                                {{ post.date | date: "%d/%m/%Y" }}
                             </time>
                         </li>
                     </ul>
