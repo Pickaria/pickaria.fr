@@ -1,25 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
+title: Blog
+permalink: /blog
+menu: true
 ---
-<section class="container col-xxl-8 px-4 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-            <img src="/assets/images/Bloc.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Logo de Pickaria" loading="lazy"
-                width="700" height="500">
-        </div>
-        <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Pickaria</h1>
-            <p class="lead">Serveur Minecraft survie convivial. Maintenant à jour en 1.18, la <span class="text-nowrap">« caves and cliffs update »</span> !</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <a href="https://discord.gg/YR6fVaS" class="btn btn-primary btn-lg px-4 me-md-2" target="_blank" rel="nooppener">Rejoins-nous !</button>
-                <a class="btn btn-outline-secondary btn-lg px-4" href="#last_articles">Découvrir</a>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="container px-4 py-5" id="custom-cards">
     <h2 class="pb-2 border-bottom" id="last_articles">Derniers articles</h2>
@@ -31,12 +15,13 @@ layout: default
             <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
                 style="background-image: url('{{ post.image }}'); background-size: cover; background-position: center;">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <a class="h2 stretched-link text-decoration-none text-light pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" href="{{ post.url | prepend: site.baseurl }}">
+                    <a class="h2 stretched-link text-decoration-none text-light pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"
+                        href="{{ post.url | prepend: site.baseurl }}">
                         {{ post.title }}
                     </a>
                     <ul class="d-flex list-unstyled mt-auto">
                         <li class="me-auto">
-                            <img src="/assets/images/authors/{{ post.author }}.jpg" alt="Avatar"
+                            <img loading="lazy" src="/assets/images/authors/{{ post.author }}.jpg" alt="Avatar"
                                 class="rounded-circle border border-white" width="32" height="32">
                         </li>
                         <li class="d-flex align-items-center me-3">
@@ -49,7 +34,8 @@ layout: default
                             <svg class="bi me-2" width="1em" height="1em">
                                 <use xlink:href="#calendar3"></use>
                             </svg>
-                            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}"
+                                itemprop="datePublished">
                                 {{ page.date | date: date_format }}
                             </time>
                         </li>

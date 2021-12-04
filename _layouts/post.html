@@ -18,10 +18,10 @@ layout: default
             </time>
             {%- endif -%}
             {%- if page.author -%}
-            • {% for author in page.author %}
+            <span class="mx-1">•</span> {% for author in page.author %}
             <span itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <img src="/assets/images/authors/{{ author }}.jpg" alt="Avatar" class="rounded-circle border border-white"
-                    width="32" height="32">
+                    width="24" height="24">
                 <span class="p-author h-card" itemprop="name">{{ author }}</span>
                 
             </span>
@@ -32,7 +32,14 @@ layout: default
     </header>
 
     <div class="text-justify" itemprop="articleBody">
-        {{ content }}
+        <div class="row g-0 justify-content-center">
+            <img src="{{ page.image }}" class="col-6 mb-2 rounded img-fluid">
+        </div>
+        <div class="row g-0 justify-content-center">
+            <div class="col-6">
+                {{ content }}
+            </div>
+        </div>
     </div>
 
     {%- if site.disqus.shortname -%}
