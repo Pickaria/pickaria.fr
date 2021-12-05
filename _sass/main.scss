@@ -1,3 +1,10 @@
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
 .text-justify {
     text-align: justify;
 }
@@ -18,4 +25,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.card-cover {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }

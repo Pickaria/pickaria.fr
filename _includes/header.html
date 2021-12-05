@@ -1,5 +1,6 @@
-<header
-    class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-between py-3 mb-4 border-bottom">
+{% include modal.html %}
+
+<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-between py-3 mb-4 border-bottom">
     <a href="/" class="d-flex align-items-center col-lg-3 mb-2 mb-lg-0 text-dark text-decoration-none">
         <img class="bi me-2" src="/assets/images/icon.jpg" width="32" height="32" role="img" aria-label="Pickaria">
     </a>
@@ -20,8 +21,8 @@
 
     <div class="col-lg-3 text-end text-nowrap">
         <a href="/#features" class="btn btn-outline-secondary me-2">Découvrir</a>
-        <a href="https://discord.gg/YR6fVaS" class="btn btn-primary" target="_blank" rel="noopener">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalSignin">
             Rejoins-nous !
-        </a>
+        </button>
     </div>
 </header>

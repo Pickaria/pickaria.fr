@@ -8,6 +8,7 @@ Ubuntu: please read [Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ub
 ```shell
 sudo apt-get install ruby-full build-essential zlib1g-dev
 bundle install
+npm install
 JEKYLL_ENV=production jekyll build
 ```
 
