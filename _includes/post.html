@@ -1,0 +1,32 @@
+<div class="col">
+    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
+        style="background-image: url('{{ include.post.image }}'); background-size: cover; background-position: center;">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <a class="h2 stretched-link text-decoration-none text-light pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"
+                href="{{ include.post.url | prepend: site.baseurl }}">
+                {{ include.post.title }}
+            </a>
+            <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                    <img loading="lazy" src="/assets/images/authors/{{ include.post.author }}.jpg" alt="Avatar"
+                        class="rounded-circle border border-white" width="32" height="32">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small>{{ include.post.author }}</small>
+                </li>
+                <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em">
+                        <use xlink:href="#calendar3"></use>
+                    </svg>
+                    <time class="dt-published-ago" datetime="{{ include.post.date | date_to_xmlschema }}"
+                        itemprop="datePublished">
+                        {{ include.post.date | date: "%d/%m/%Y" }}
+                    </time>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

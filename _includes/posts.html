@@ -1,0 +1,13 @@
+{% if include.limit %}
+    {% for post in site.posts limit: include.limit %}
+
+        {% include post.html post=post %}
+
+    {% endfor %}
+{% else %}
+    {% for post in site.posts %}
+
+        {% include post.html post=post %}
+
+    {% endfor %}
+{% endif %}
