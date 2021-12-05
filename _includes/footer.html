@@ -1,0 +1,22 @@
+<footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        {% for node in site.pages %}
+        {% if node.menu %}
+        <li class="nav-item">
+            <a href="{{ node.permalink }}" class="nav-link px-2 text-muted">{{ node.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+
+        <li class="nav-item">
+            <a href="https://discord.gg/YR6fVaS" class="nav-link px-2 text-muted" target="_blank"
+                rel="noopener">Discord</a>
+        </li>
+
+        <li class="nav-item">
+            <a href="https://status.pickaria.fr" class="nav-link px-2 text-muted">Statut</a>
+        </li>
+    </ul>
+
+    <p class="text-center text-muted">© 2021 Pickaria</p>
+</footer>
