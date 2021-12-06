@@ -29,7 +29,7 @@ Je vous propose ci-dessous un petit guide pour lancer le jeu et rejoindre le ser
             <div class="accordion-body">
                 <div class="d-flex flex-column">
                     <figure class="figure">
-                        <img src="/assets/1.png" class="figure-img img-fluid rounded"
+                        <img src="/assets/1.png" class="figure-img img-fluid"
                             alt="Ouvrir le launcher de Minecraft">
                         <figcaption class="figure-caption">Démarrez le launcher puis accédez à l'onglet
                             "Configuration".
@@ -37,13 +37,13 @@ Je vous propose ci-dessous un petit guide pour lancer le jeu et rejoindre le ser
                     </figure>
 
                     <figure class="figure">
-                        <img src="/assets/2.png" class="figure-img img-fluid rounded"
+                        <img src="/assets/2.png" class="figure-img img-fluid"
                             alt="Cocher la case Snapshot">
                         <figcaption class="figure-caption">Cocher la case "Snapshot".</figcaption>
                     </figure>
 
                     <figure class="figure">
-                        <img src="/assets/3.png" class="figure-img img-fluid rounded"
+                        <img src="/assets/3.png" class="figure-img img-fluid"
                             alt="Cocher la case Snapshot">
                         <figcaption class="figure-caption">Tu es fin prêt à nous rejoindre ! Sélectionne la
                             bonne
@@ -66,19 +66,19 @@ Je vous propose ci-dessous un petit guide pour lancer le jeu et rejoindre le ser
             <div class="accordion-body">
                 <div class="d-flex flex-column">
                     <figure class="figure">
-                        <img src="/assets/7.png" class="figure-img img-fluid rounded"
+                        <img src="/assets/7.png" class="figure-img img-fluid"
                             alt="Cliquer sur Multijoueur">
                         <figcaption class="figure-caption">Une fois le jeu lancé, clique sur "Multijoueur"
                         </figcaption>
                     </figure>
                     <figure class="figure">
-                        <img src="/assets/8.png" class="figure-img img-fluid rounded"
+                        <img src="/assets/8.png" class="figure-img img-fluid"
                             alt="Cliquer sur Nouveau server">
                         <figcaption class="figure-caption">Clique sur "Nouveau serveur".</figcaption>
                     </figure>
 
                     <figure class="figure">
-                        <img src="/assets/9.png" class="figure-img img-fluid rounded"
+                        <img src="/assets/9.png" class="figure-img img-fluid"
                             alt="Renseigner les informations puis valider.">
                         <figcaption class="figure-caption">
                             Dans le champ "Nom du serveur" tu peux écrire le nom que tu souhaite.<br>
@@ -88,7 +88,7 @@ Je vous propose ci-dessous un petit guide pour lancer le jeu et rejoindre le ser
 
 
                     <figure class="figure">
-                        <img src="/assets/10.png" class="figure-img img-fluid rounded" alt="Rejoindre !">
+                        <img src="/assets/10.png" class="figure-img img-fluid" alt="Rejoindre !">
                         <figcaption class="figure-caption">Une fois le serveur ajouté, il ne te reste plus
                             qu'à cliquer
                             sur "Rejoindre" !</figcaption>

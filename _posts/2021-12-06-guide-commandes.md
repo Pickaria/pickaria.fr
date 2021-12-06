@@ -2,8 +2,11 @@
 layout: post
 title:  "Guide des commandes"
 date:   2021-12-06 12:00:00 +0100
+category: guide
 image: /assets/images/articles/guide_commandes.jpg
 author: Quozul
+modified_date: 2021-12-07 12:00:00 +0100
+permalink: /guide/commandes
 ---
 Besoin d'aide pour utiliser les commandes sur le serveur ? Voici un guide qui pourra vous aider !
 
@@ -36,10 +39,24 @@ Donne de l'argent à un joueur.
 - `/baltop`  
 Voir qui sont les joueurs les plus riches du serveur.
 
+## Hôtel des ventes
+L'hôtel des ventes permet de vendre les objets que vous avez récolté sur le serveur.
+
+- `/ah`  
+Accéder à l'hôtel des ventes.
+- `/ah sell <prix> [quantité]`  
+Ajoute l'objet que vous tenez en main à l'hôtel des ventes.
+- `/ah selling`  
+Voir tous les articles que vous vendez.
+- `/ah cancel`  
+Annuler toutes vos ventes.
+- `/ah expired`  
+Voir tous les articles expirés à récupérer.
+
 ## Gérer une ville
 
 Le plugin Towny permet de gérer des villes sur le serveur.
-Plus d'informations sur les commandes sur le [wiki officiel](https://github.com/TownyAdvanced/Towny/wiki/Towny-Commands).
+Plus d'informations sur les commandes sur le [wiki officiel](https://github.com/TownyAdvanced/Towny/wiki/Towny-Commands){:target="_blank"}{:rel="noopener noreferrer"}.
 
 Vous retrouverez ci-dessous les commandes principales.
 

@@ -1,6 +1,6 @@
 <div class="modal fade " tabindex="-1" role="dialog" id="modalSignin">
     <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content rounded-5 shadow">
+        <div class="modal-content shadow">
             <div class="modal-header p-5 pb-4 border-bottom-0">
                 <h2 class="fw-bold mb-0">Nous rejoindre</h2>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -8,19 +8,25 @@
 
             <div class="modal-body p-5 pt-0">
                 <form class="">
-                    <button class="w-100 btn btn-lg rounded-4 btn-primary" type="button" id="copyAddress">Copier l'adresse du serveur</button>
-                    <small class="text-muted">Ou entrez l'adresse <pre class="d-inline">pickaria.fr</pre> dans votre jeu.</small>
+                    <button class="w-100 btn btn-lg btn-primary" type="button" id="copyAddress">Copier l'adresse du
+                        serveur</button>
+                    <small class="text-muted">Ou entrez l'adresse
+                        <pre class="d-inline">pickaria.fr</pre> dans votre jeu.
+                    </small>
 
-                    <a class="w-100 my-2 btn btn rounded-4 btn-outline-secondary" href="https://discord.gg/YR6fVaS" target="_blank" rel="noopener">Rejoindre le serveur Discord</a>
+                    <a class="w-100 my-2 btn btn btn-outline-secondary" href="https://discord.gg/YR6fVaS"
+                        target="_blank" rel="noopener noreferrer">Rejoindre le serveur Discord</a>
 
                     <hr class="my-4">
 
                     <h2 class="fs-5 fw-bold mb-3">Déjà joueur ?</h2>
                     <p class="text-muted">Accède à ton espace Pickaria !</p>
 
-                    <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-4" type="button">
+                    <a class="w-100 py-2 mb-2 btn btn-outline-dark disabled"
+                        href="https://discord.com/api/oauth2/authorize?client_id=572718586250919948&redirect_uri={{ site.url }}/account&response_type=code&scope=identify%20guilds%20guilds.join"
+                        rel="noopener noreferrer">
                         Se connecter avec Discord
-                    </button>
+                    </a>
                 </form>
             </div>
         </div>
