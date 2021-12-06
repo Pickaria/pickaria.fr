@@ -34,6 +34,8 @@ twitter:
 logo: /assets/images/icon.jpg
 locale: fr_FR
 
+permalink: /:categories/:year/:month/:day/:title
+
 # Build settings
 theme: minima
 plugins:

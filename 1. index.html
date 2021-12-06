@@ -73,9 +73,7 @@ menu: true
 <section class="container px-4 py-5" id="custom-cards">
     <h2 class="pb-2 border-bottom" id="last_articles">Derniers articles</h2>
 
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-        {% include posts.html limit=3 %}
-    </div>
+    {% include posts.html limit=3 %}
 
     <div class="d-flex justify-content-center">
         <a class="btn btn-primary" href="/blog">Voir plus d'articles</a>
