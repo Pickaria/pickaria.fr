@@ -36,13 +36,16 @@ document.querySelectorAll("time.dt-published-ago").forEach(time => {
     time.innerText = timeSince(date);
 });
 
-document.getElementById("copyAddress")?.addEventListener("click", function () {
-    console.log(this);
-    const innerText = this.innerText;
-    this.innerText = "Adresse copiée !";
-    navigator.clipboard.writeText("pickaria.fr");
+const copyAddress = document.getElementById("copyAddress");
 
-    setTimeout(() => {
-        this.innerText = innerText;
-    }, 1000);
-}, { passive: true, });
+if (copyAddress) {
+    copyAddress.addEventListener("click", function () {
+        const innerText = this.innerText;
+        this.innerText = "Adresse copiée !";
+        navigator.clipboard.writeText("pickaria.fr");
+
+        setTimeout(() => {
+            this.innerText = innerText;
+        }, 1000);
+    }, { passive: true, });
+}
