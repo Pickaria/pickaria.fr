@@ -77,6 +77,10 @@ Permet de payer la taxe journalière de la ville.
 Se téléporter au spawn de la ville contre une somme d'argent.
 - `/resident list`  
 Liste des résidents de la ville.
+- `/town here`  
+Voir les informations sur la ville dans laquelle vous vous trouvez.
+- `/towny prices`  
+Voir les différents coûts en rapport avec les villes.
 
 Lorsqu'un joueur utilise la commande `/town spawn`, le joueur paie une taxe qui sera crédité au compte de la ville.  
 Le maire de la ville peut exiger de ses habitants une taxe journalière ou un coût pour acheter une parcelle.
@@ -100,6 +104,17 @@ Modifier la taxe journalière pour chaque résidents de la ville.
 Modifier le coût par défaut d'une parcelle
 - `/town set plottax <coût>`  
 Modifier la taxe journalière pour chaque résidents de la ville par parcelles qu'ils possèdent.
+
+## Avant-postes
+Les avant-postes sont un bon moyen pour protéger des parcelles qui ne sont pas aux frontières de votre ville.
+
+- `/town claim outpost`  
+Fonder un avant-poste pour la ville.  
+Après ce premier claim, vous pouvez claim normalement autour.
+- `/town outpost list`  
+Lister tous les avant-postes de votre ville.
+- `/town outpost <nom de l'avant poste>`  
+Se téléporter à un avant-poste.
 
 ### Gestion des parcelles
 - `/plot forsale`  
