@@ -6,7 +6,6 @@ category: guide
 image: /assets/images/articles/guide_commandes.jpg
 author: Quozul
 modified_date: 2021-12-10 16:30:00 +0100
-permalink: /guide/commandes
 ---
 Besoin d'aide pour utiliser les commandes sur le serveur ? Voici un guide qui pourra vous aider !
 
