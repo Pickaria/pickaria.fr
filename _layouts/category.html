@@ -3,9 +3,9 @@ layout: default
 ---
 
 <section class="container px-4 py-5" id="custom-cards">
-    <h2 class="pb-2 border-bottom" id="last_articles">{{ page.category }}</h2>
+    <h2 class="pb-2 border-bottom" id="last_articles">{{ page.title }}</h2>
+    <p class="lead">{{ page.description }}</hp2>
 
-    {% assign filter = "post.categories contains " | append: page.category %}
-    {% assign posts = site.posts | where_exp: "post", filter %}
+    {% assign posts = site.categories[page.category] %}
     {% include posts.html posts=posts %}
 </section>
