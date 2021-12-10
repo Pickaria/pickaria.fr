@@ -19,7 +19,8 @@ layout: default
             {%- if page.author -%}
             &nbsp;•&nbsp; {% for author in page.author %}
             <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <img itemprop="avatar" src="/assets/images/authors/{{ author }}.jpg" alt="{{ author }}'s avatar" class="rounded-circle border border-white" width="24" height="24">
+                <img itemprop="avatar" src="/assets/images/authors/{{ author }}.jpg" alt="{{ author }}'s avatar"
+                    class="rounded-circle border border-white" width="24" height="24">
                 <span class="p-author h-card" itemprop="name">{{ author }}</span>
             </span>
             {%- if forloop.last == false %}, {% endif -%}
@@ -35,13 +36,25 @@ layout: default
         <div class="row g-0 justify-content-center">
             <div class="col-12 col-lg-6">
                 {{ content }}
+
+                <hr>
+
+                <div class="d-flex justify-content-between">
+                    <span>
+                        {% if page.previous %}
+                        ← <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                        {% endif %}
+                    </span>
+
+                    <span>
+                        {% if page.next %}
+                        <a href="{{ page.next.url }}">{{ page.next.title }}</a> →
+                        {% endif %}
+                    </span>
+                </div>
             </div>
         </div>
     </div>
-
-    {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-    {%- endif -%}
 
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

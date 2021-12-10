@@ -5,7 +5,7 @@ date:   2021-12-06 12:00:00 +0100
 category: guide
 image: /assets/images/articles/guide_commandes.jpg
 author: Quozul
-modified_date: 2021-12-07 12:00:00 +0100
+modified_date: 2021-12-10 16:30:00 +0100
 permalink: /guide/commandes
 ---
 Besoin d'aide pour utiliser les commandes sur le serveur ? Voici un guide qui pourra vous aider !
@@ -33,7 +33,8 @@ Supprimer un point de téléportation.
 Vous pouvez collecter de l'argent sur le serveur en tuant des monstres ou en minant des resources.
 
 - `/money`  
-Voir la quantité d'argent possédée.
+Voir la quantité d'argent possédée.  
+Vous pouvez également ouvrir la liste des joueurs pour consulter votre solde en même temps.
 - `/pay <pseudo du joueur> <quantité>`  
 Donne de l'argent à un joueur.
 - `/baltop`  
@@ -104,8 +105,10 @@ Modifier la taxe journalière pour chaque résidents de la ville.
 Modifier le coût par défaut d'une parcelle
 - `/town set plottax <coût>`  
 Modifier la taxe journalière pour chaque résidents de la ville par parcelles qu'ils possèdent.
+- `/town toggle mobs`  
+Autoriser les monstres à apparaitre dans votre ville.
 
-## Avant-postes
+### Avant-postes
 Les avant-postes sont un bon moyen pour protéger des parcelles qui ne sont pas aux frontières de votre ville.
 
 - `/town claim outpost`  
@@ -117,8 +120,10 @@ Lister tous les avant-postes de votre ville.
 Se téléporter à un avant-poste.
 
 ### Gestion des parcelles
-- `/plot forsale`  
+- `/plot forsale <prix>`  
 Mettre une parcelle en vente.
+- `/plot notforsale`  
+Retirer de la vente une parcelle.
 - `/plot claim`  
 Acheter une parcelle.
 - `/plot unclaim`  
@@ -127,3 +132,5 @@ Vendre une parcelle.
 Ajouter un joueur à votre parcelle.
 - `/plot set name <nom de la parcelle>`  
 Renommez votre parcelle.
+- `/plot toggle mobs`  
+Autoriser les monstres à apparaitre sur la parcelle concernée.
