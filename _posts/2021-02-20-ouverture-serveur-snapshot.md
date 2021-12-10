@@ -5,6 +5,7 @@ date:   2021-02-20 17:00:00 +0100
 image: /assets/images/articles/ouverture_du_serveur_snapshot.jpg
 author: Quozul
 modified_date: 2021-06-09 17:00:00 +0100
+category: update
 ---
 Les premières snapshot de la 1.17 sont là, envie de tester les nouveautés ? Rejoignez-nous !<br><br>
 

@@ -1,12 +1,12 @@
 <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
     {% if include.limit %}
-    {% for post in site.posts limit: include.limit %}
+    {% for post in include.posts limit: include.limit %}
 
     {% include post.html post=post %}
 
     {% endfor %}
     {% else %}
-    {% for post in site.posts %}
+    {% for post in include.posts %}
 
     {% include post.html post=post %}
 
