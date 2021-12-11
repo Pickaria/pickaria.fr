@@ -44,23 +44,24 @@ Voir tous les articles dont la mise en vente à expiré et qui sont à récupér
 
 ## Les magasins coffres
 
-Les magasin coffres vous permettent vendre une quantité plus considérables d'objets, cependant les joueurs doivent se déplacer à votre ville. Pensez à ouvrir votre ville à la téléportation avec `/town toggle public on`.  
+Les magasin coffres vous permettent vendre une quantité plus considérables d'objets, cependant les joueurs doivent se déplacer à votre ville. Pensez à ouvrir votre ville à la téléportation avec `/town toggle public on`.
+
 Avant de pouvoir créer un magasin coffre, il faut être dans une ville, que la parcelle vous apartienne et soit de type "shop", utilisez `/plot set shop` pour changer son type.
 
-Voici les étapes pour créer un magasin coffre :
-1. Placez un coffre au sol
+**Voici les étapes pour créer un magasin coffre :**
+1. Placez un coffre au sol.  
 Si le coffre contient déjà un objet, celui-ci sera l'objet mis en vente ou acheté.
-2. Placer une pancarte sur le coffre
+2. Placer une pancarte sur le coffre.
 3. Sur la 2e ligne du panneau, écrire la quantité d'articles à vendre.
-4. Sur la 3e ligne écrire les prix comme suit :
-`B <prix de vente> : <prix d'achat> S`
-Vous pouvez ommetre un prix si vous ne souhaitez pas acheter l'article par exemple.
-5. Sur la 4e ligne, écrire le nom de l'article en vente ou "?" pour qu'il soit automatiquement renseigné.
+4. Sur la 3e ligne écrire les prix comme suit :  
+`B <prix de vente> : <prix d'achat> S`  
+Vous pouvez omettre un prix si vous ne souhaitez pas acheter l'article par exemple ou écrire "free" à la place du prix pour le vendre ou l'acheter gratuitement.
+5. Sur la 4e ligne, écrire le nom de l'article en vente ou "?" pour qu'il soit automatiquement renseigné.  
 Dans le cas où vous avez écrit "?" sur la 4e ligne, cliquez sur la pancarte avec l'objet à mettre en vente.
-6. Remplir le coffre !
+6. Remplir le coffre !  
 La première ligne sera remplie par le pseudonyme de son propriétaire.
 
-Voici quelques exemples :
+**Voici quelques exemples :**
 
 ![ChestShops](/assets/images/articles/chestshops.jpg){:class="img-fluid"}
 
