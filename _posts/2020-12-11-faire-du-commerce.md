@@ -44,7 +44,8 @@ Voir tous les articles dont la mise en vente à expiré et qui sont à récupér
 
 ## Les magasins coffres
 
-Les magasin coffres vous permettent vendre une quantité plus considérables d'objets, cependant les joueurs doivent se déplacer à votre ville. Pensez à ouvrir votre ville à la téléportation avec `/town toggle public on`.
+Les magasin coffres vous permettent vendre une quantité plus considérables d'objets, cependant les joueurs doivent se déplacer à votre ville. Pensez à ouvrir votre ville à la téléportation avec `/town toggle public on`.  
+Avant de pouvoir créer un magasin coffre, il faut être dans une ville, que la parcelle vous apartienne et soit de type "shop", utilisez `/plot set shop` pour changer son type.
 
 Voici les étapes pour créer un magasin coffre :
 1. Placez un coffre au sol
