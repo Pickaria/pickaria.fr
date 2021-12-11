@@ -5,7 +5,7 @@ date:   2021-12-06 12:00:00 +0100
 category: guide
 image: /assets/images/articles/guide_commandes.jpg
 author: Quozul
-modified_date: 2021-12-10 16:30:00 +0100
+modified_date: 2021-12-11 12:00:00 +0100
 ---
 Besoin d'aide pour utiliser les commandes sur le serveur ? Voici un guide qui pourra vous aider !
 
@@ -20,6 +20,8 @@ Répondre à un message privé à un joueur.
 
 - `/tpa <pseudo du joueur>`  
 Demander à un joueur de se téléporter à sa position.
+- `/tphere <pseudo du joueur>`  
+Demander à un joueur de se téléporter à votre position.
 - `/sethome <nom de la maison>`  
 Définir un point de téléportation.
 - `/home <nom de la maison>`  
@@ -29,29 +31,7 @@ Supprimer un point de téléportation.
 
 ## Economie
 
-Vous pouvez collecter de l'argent sur le serveur en tuant des monstres ou en minant des resources.
-
-- `/money`  
-Voir la quantité d'argent possédée.  
-Vous pouvez également ouvrir la liste des joueurs pour consulter votre solde en même temps.
-- `/pay <pseudo du joueur> <quantité>`  
-Donne de l'argent à un joueur.
-- `/baltop`  
-Voir qui sont les joueurs les plus riches du serveur.
-
-## Hôtel des ventes
-L'hôtel des ventes permet de vendre les objets que vous avez récolté sur le serveur.
-
-- `/ah`  
-Accéder à l'hôtel des ventes.
-- `/ah sell <prix> [quantité]`  
-Ajoute l'objet que vous tenez en main à l'hôtel des ventes.
-- `/ah selling`  
-Voir tous les articles que vous vendez.
-- `/ah cancel`  
-Annuler toutes vos ventes.
-- `/ah expired`  
-Voir tous les articles expirés à récupérer.
+La section a été déplacée sur sa [page dédiée](/guide/2021/12/11/faire-du-commerce).
 
 ## Gérer une ville
 
@@ -133,3 +113,5 @@ Ajouter un joueur à votre parcelle.
 Renommez votre parcelle.
 - `/plot toggle mobs`  
 Autoriser les monstres à apparaitre sur la parcelle concernée.
+- `/town buy bonus <quantité>`  
+Acheter des parcelles bonus à la ville.
