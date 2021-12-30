@@ -20,19 +20,26 @@
 
 title: Pickaria
 email: contact@pickaria.fr
-author: Quozul
+author: Pickaria
 description: >- # this means to ignore newlines until "baseurl:"
   Rejoignez Pickaria maintenant ! Serveur Minecraft survie français depuis 2018.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.pickaria.fr" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Quozul
-github_username:  Quozul
-tagline: Serveur Minecraft survie français
-twitter:
-  username: Quozul
-  card: summary
+twitter_username: pickaria
+github_username:  Pickaria
 logo: /assets/images/icon.jpg
 locale: fr_FR
+
+# jekyll-seo-tags
+tagline: Serveur Minecraft survie français
+twitter:
+  username: pickaria
+  card: summary
+social:
+  name: Pickaria
+  links:
+    - https://twitter.com/pickaria
+    - https://github.com/Pickaria
 
 permalink: /:categories/:year/:month/:day/:title
 

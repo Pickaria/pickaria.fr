@@ -5,19 +5,19 @@
         <img class="bi me-2" src="/assets/images/navicon.jpg" width="32" height="32" role="img" aria-label="Pickaria">
     </a>
 
-    <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-lg-0">
+    <nav class="nav col-12 col-lg-auto mb-2 justify-content-center mb-lg-0" role="navigation">
         {% for node in site.pages %}
         {% if node.menu %}
         <li>
             {% if page.url == node.url %}
-            <a href="{{ node.permalink }}" class="nav-link px-2 link-secondary">{{ node.title }}</a>
+            <a href="{{ node.permalink }}" class="nav-link px-2 link-secondary" aria-current="page">{{ node.title }}</a>
             {% else %}
             <a href="{{ node.permalink }}" class="nav-link px-2 link-dark">{{ node.title }}</a>
             {% endif %}
         </li>
         {% endif %}
         {% endfor %}
-    </ul>
+    </nav>
 
     <div class="col-lg-3 text-end text-nowrap">
         <a href="/#features" class="btn btn-outline-secondary me-2">Découvrir</a>
