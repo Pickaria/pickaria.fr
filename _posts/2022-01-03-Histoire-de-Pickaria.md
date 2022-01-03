@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Le cross plateforme sur Pickaria"
+date:   2021-12-28 14:30:00 +0100
+category: [update, guide]
+image: /assets/images/articles/cross_plateforme.jpg
+author: Quozul
+---
+<h1><em><u>L&rsquo;histoire de Pickaria du d&eacute;but &agrave; son ascension</u></em></h1>
+<p>&nbsp;</p>
+<h3><u>Partie 1 &ndash; Les origines</u></h3>
+<p>Tout d&rsquo;abord, Pickaria n&rsquo;a pas toujours &eacute;t&eacute; Pickaria et m&ecirc;me tr&egrave;s loin du contexte dans lequel nous le connaissons aujourd&rsquo;hui.</p>
+<p>L&rsquo;id&eacute;e d&rsquo;un serveur publique provient de l&rsquo;imagination de Alinaa99 en premier lieu qui tenta mainte fois de r&eacute;aliser son r&ecirc;ve d&rsquo;enfance qui &eacute;tait d&rsquo;avoir son propre serveur, car ses serveurs favoris avaient ferm&eacute; (Weokk.org et unlimitedCraft).</p>
+<p>Notre serveur (surtout celui d&rsquo;Alinaa99 puisque Quozul et elle ne se connaissait pas encore) a d&rsquo;abord &eacute;t&eacute; connus (pour peu de personnes) sous le nom de Hiresya.fr, un serveur priv&eacute; entre ami(e)s apparu en 2014 pour les joueurs qui &eacute;tait proche d&rsquo;Alinaa99.</p>
+<p>A cette &eacute;poque, Hiresya donc, &eacute;tait un serveur survie qui avait pour but de devenir public dans le futur, c&rsquo;est pourquoi Alinaa99 s&rsquo;&eacute;tait arm&eacute;e d&rsquo;un petit groupe d&rsquo;ami(e)s proche afin de r&eacute;aliser des constructions en vue d&rsquo;une future ouverture. Ce projet a &eacute;t&eacute; avort&eacute; plusieurs fois bien qu&rsquo;il avan&ccedil;ait convenablement car nous n&rsquo;avions plus la motivation apr&egrave;s qu&rsquo;un &eacute;v&eacute;nement nous ai mis un peu dans les bas du serveur. Il y a eu plusieurs essais tout au long de ces 3 ann&eacute;es qui furent les origines de Pickaria, en 2017 nous avons finalement abandonn&eacute; l&rsquo;id&eacute;e de l&rsquo;ouvrir au public et avec les nouvelles visions d&rsquo;Alinaa99, qui a mis Minecraft derri&egrave;re elle, Hiresya s&rsquo;est finalement endormie a jamais&hellip;</p>
+<p>&nbsp;</p>
+<h3><u>Partie 2 &ndash; Le commencement</u></h3>
+<p>Pickaria n&rsquo;est pas n&eacute; Pickaria. En 2018, le pr&eacute;curseur de ce que deviendra Pickaria &eacute;tait n&eacute;, un serveur qui avait &eacute;t&eacute; lou&eacute; par Walkiryon. Finalement Alinaa99 en a pris le contr&ocirc;le afin de l&rsquo;am&eacute;liorer et de configurer ce serveur afin de jouer dans de bonnes conditions. Elle demanda de l&rsquo;aide a Quozul, et c&rsquo;est ainsi que pour la premi&egrave;re fois, l&rsquo;&eacute;quipe du staff de Pickaria s&rsquo;est form&eacute; (si vous voulez plus de d&eacute;tails sur l&rsquo;arriv&eacute;e de quozul il faut finir de lire l&rsquo;article&nbsp;:wink: ). Cette version n&rsquo;a pas dur&eacute; tr&egrave;s longtemps, de l&rsquo;ordre de 2 &agrave; 3 mois suivis d&rsquo;une autre version de 3 mois &eacute;galement, en suite nous avons remis a 0 le serveur et avons ouvert de nouveau mais cette fois-ci, gr&acirc;ce au stream, avait r&eacute;ussi &agrave; r&eacute;unir quelques personnes sur un serveur qui sera, pour quelques un, la version qui aura enfin aboutit et permis de jouer ensemble en communaut&eacute;&nbsp;! Et &ccedil;a sera en 1.13 que la premi&egrave;re version de Pickaria fut ouverte au public&nbsp;! et avec cette nouvelle id&eacute;e forg&eacute;e par Alinaa99 et Quozul, de nouvelles ambitions, le 11.01.2019 a &eacute;t&eacute; cr&eacute;er le serveur discord afin de nous retrouver et avoir l&rsquo;actualit&eacute; de Pickaria, ce qui d&eacute;clara que l&rsquo;aire de Pickaria, &eacute;tait sur le point de commencer.</p>
+<p>&nbsp;</p>
+<h3><u>Partie 3 &ndash; D&rsquo;hier a Aujourd&rsquo;hui</u></h3>
+<p>Le chemin qui nous a permis d&rsquo;arriv&eacute; jusqu&rsquo;&agrave; aujourd&rsquo;hui a &eacute;t&eacute; particulier &eacute;tant donn&eacute; que nous n&rsquo;avions pas sp&eacute;cialement de jours assidus d&ucirc; au fait que nous ne faisions pas de pub ni rien a part le bouche a oreille qui nous a permis d&rsquo;amener quelques joueurs que nous connaissions bien, c&rsquo;&eacute;tait notre vision, un serveur public mais qui &eacute;tait sur la base de connaissances a connaissances, cela a durer de la version 1.13.2 jusqu&rsquo;&agrave; la 1.17,&nbsp; nous sommes passer par plusieurs phase, chronologiquement nous avons fait 1.13 -&gt; 1.14 avec beaucoup de retour en 1.13.2 d&ucirc; &agrave; l&rsquo;instabilit&eacute; du build 1.14, en suite nous sommes passer sur une version modd&eacute; 1.12.2 qui contenait un modpack complet con&ccedil;u par Quozul, mais par manque de joueurs nous avons du ferm&eacute;. Finalement c&rsquo;est en 1.15.2 que Pickaria revient de nouveau&nbsp;! et cette fois ci le serveur ne s&rsquo;est pas arr&ecirc;t&eacute; depuis cette version, avec m&ecirc;me un passage en 1.16 et ainsi de suite sans catastrophe&nbsp;! Pickaria &eacute;tait donc enfin notre but ultime, jusqu&rsquo;&agrave; aujourd&rsquo;hui, la 1.18, celle qui d&eacute;marrera notre nouvelle aventure, celle que vous connaissez tous, Pickaria &eacute;tait en fin ouverte au public et gr&acirc;ce a vous tous, a fini par &ecirc;tre peupl&eacute; et jouer au quotidiens par pas mal de joueurs et nous en sommes fi&egrave;res, car gr&acirc;ce &agrave; nous tous, Pickaria a enfin atteint le but tant esp&eacute;r&eacute;, celui d&rsquo;&ecirc;tre un serveur ou les gens se plaisent et o&ugrave; tout n&rsquo;est pas que g&eacute;rer par le staff, mais par nous, vous, joueurs de minecraft, qui, je l&rsquo;esp&egrave;re dans le futur fera de ce serveur un monde ou rien ne nous emp&ecirc;chera de nous amuser et de perp&eacute;tuer la vision que nous avons de Minecraft aujourd&rsquo;hui&nbsp;! Tout le staff vous remercie de votre participation et nous esp&eacute;rons que vous, soyons fi&egrave;re de ce que nous avons accomplis jusqu&rsquo;&agrave; maintenant, et que le serveur continuera &agrave; grandir&nbsp;!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+![Serveur Bedrock](/assets/images/articles/adresse_bedrock.jpg){:class="img-fluid"}
+
+## Sur Twitter :
+
+<div class="d-flex w-100 justify-content-center flex-row">
+<blockquote class="twitter-tweet"><p lang="fr" dir="ltr">Bonne nouvelle ! Pickaria est maintenant accessible avec la version BedRock console et MicrosoftStore ! <a href="https://twitter.com/hashtag/Minecraft?src=hash&amp;ref_src=twsrc%5Etfw">#Minecraft</a></p>&mdash; Pickaria (@pickaria) <a href="https://twitter.com/pickaria/status/1476237095001894922?ref_src=twsrc%5Etfw">December 29, 2021</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</div>
