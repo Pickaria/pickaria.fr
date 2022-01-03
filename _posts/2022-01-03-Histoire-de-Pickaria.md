@@ -25,3 +25,4 @@ author: Alinaa99
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<p>Pour la petite anecdote, c&rsquo;est la fain&eacute;antise de Alinaa99 qui a men&eacute; Quozul sur ce qui &eacute;tait les premiers moments de Pickaria, Alinaa99 avait demander a Quozul de configurer le plugin PermissionsEx, et cet &eacute;v&eacute;nement a fini par faire rester Quozul et il y a &eacute;tablie sa maison et d&eacute;marrer une nouvelle aventure avec Alinaa99 a ses c&ocirc;t&eacute;s pour l&rsquo;&eacute;pauler&nbsp;!</p>
