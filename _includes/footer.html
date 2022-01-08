@@ -1,5 +1,5 @@
 <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <ul class="nav justify-content-center">
         {% for node in site.pages %}
         {% if node.menu %}
         <li class="nav-item">
@@ -18,21 +18,27 @@
         </li>
     </ul>
 
-    <div class="d-flex justify-content-between">
-        <p class="text-center text-muted">
-            © 2021 Pickaria
-        </p>
+    <div class="d-flex justify-content-between flex-wrap pt-4 mt-4 border-top">
+        <p>© 2021 Pickaria. Tous droits réservés.</p>
 
-        <div>
-            <a class="text-decoration-none me-2" href="https://github.com/Pickaria" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/images/social/github.svg" alt="GitHub" loading="lazy" width="16" height="16">
-            </a>
-            <a class="text-decoration-none me-2" href="https://twitter.com/pickaria" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/images/social/twitter.svg" alt="Twitter" loading="lazy" width="16" height="16">
-            </a>
-            <a class="text-decoration-none" href="https://discord.gg/YR6fVaS" target="_blank" rel="noopener noreferrer">
-                <img src="/assets/images/social/discord.svg" alt="Discord" loading="lazy" width="16" height="16">
-            </a>
-        </div>
+        <ul class="list-unstyled d-flex ms-auto">
+            <li class="ms-3">
+                <a class="text-decoration-none me-2" href="https://github.com/Pickaria" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="/assets/images/social/github.svg" alt="GitHub" loading="lazy" width="16" height="16">
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-decoration-none me-2" href="https://twitter.com/pickaria" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="/assets/images/social/twitter.svg" alt="Twitter" loading="lazy" width="16" height="16">
+                </a>
+            </li>
+            <li class="ms-3">
+                <a class="text-decoration-none" href="https://discord.gg/YR6fVaS" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/images/social/discord.svg" alt="Discord" loading="lazy" width="16" height="16">
+                </a>
+            </li>
+        </ul>
     </div>
 </footer>

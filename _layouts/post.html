@@ -39,14 +39,14 @@ layout: default
 
                 <hr>
 
-                <div class="d-flex justify-content-between">
+                <div class="d-flex justify-content-between flex-wrap">
                     <span>
                         {% if page.previous %}
                         ← <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
                         {% endif %}
                     </span>
 
-                    <span>
+                    <span class="ms-auto">
                         {% if page.next %}
                         <a href="{{ page.next.url }}">{{ page.next.title }}</a> →
                         {% endif %}
