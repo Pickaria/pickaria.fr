@@ -36,3 +36,12 @@
 code {
 	white-space: nowrap;
 }
+
+table {
+	width: 100%;
+	margin: 1em 0;
+
+	th {
+		border-bottom: solid 1px #222;
+	}
+}
