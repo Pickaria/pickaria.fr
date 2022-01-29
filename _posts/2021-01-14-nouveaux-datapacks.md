@@ -21,7 +21,7 @@ Fabriquez un livre vierge ("book and quill" en anglais), puis signez-le avec le 
 Ouvrez ce livre à côté d'un porte armure et vous pourrez le customiser !
 
 ## Cadres invisibles
-Vous pouvez rendre des cadres invisibles, soit avec le livres des statues soit avec la commande : `/trigger if_invisible`.
+Vous pouvez rendre des cadres invisibles, soit avec le livre des statues soit avec la commande : `/trigger if_invisible`.
 
 ## Portails custom
 Les portails du nether peuvent prendre n'importe quelle forme, que ce soit un rond, un losange ou toute autre forme abstraite ! Soyez créatifs.  
