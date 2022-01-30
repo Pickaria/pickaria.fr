@@ -5,6 +5,7 @@ date:   2022-01-29 11:00:00 +0100
 category: [update]
 image: /assets/images/articles/jobs_levels.jpg
 author: Quozul
+modified_date: 2022-01-30 16:30:00 +0100
 ---
 Depuis le temps que vous exercez vos métiers, il faut bien que vous en soyez récompensé.
 
@@ -19,13 +20,13 @@ Chaque action du métier rapporte au minimum 1 d'experience dans le métier.
 
 Métier | Niveau 25 | Niveau 50 | Niveau 75 | Niveau 100
 --- | --- | --- | --- | ---
-Alchimiste | 286 | 1 926 | 15 188 | 126 404
-Chasseur | 286 | 1 926 | 15 188 | 126 404
-Commerçant | 196 | 1 223 | 8 105 | 55 094
-Éleveur | 226 | 2 037 | 18 392 | 166 037
-Enchanteur | 221 | 1 273 | 8180 | 55 194
-Fermier | 241 | 1 909 | 16 105 | 138 326
-Mineur | 402 | 1 430 | 6 420 | 35 577
+Alchimiste | 1 461 | 4 276 | 18 713 | 131 104
+Chasseur | 1575 | 6 022 | 41 907 | 418 418
+Commerçant | 1 421 | 3 673 | 11 780 | 59 994
+Éleveur | 1 476 | 4 537 | 22 142 | 171 037
+Enchanteur | 1 421 | 3 673 | 11 780 | 59 994
+Fermier | 1 466 | 4 359 | 19 780 | 143 226
+Mineur | 1 402 | 3 430 | 9 420 | 39 577
 
 ## Gains par métiers
 
