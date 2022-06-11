@@ -8,7 +8,7 @@ author: Quozul
 ---
 Être dans une ville octroi de nombreux avantages, l'un deux est que vous pouvez obtenir des ressources rares sans faire le moindre effort !
 
-Lorsque vous créez votre ville, vous être automatiquement éligible à une ressource rare.  
+Lorsque vous créez votre ville, vous êtes automatiquement éligible à une ressource rare.  
 Plus celle-ci se développe, plus vous pourrez obtenir de ressources chaque jour.
 
 Pour chercher une nouvelle ressource rare à obtenir, effectuez la commande `/tr survey` en étant sur le territoire de votre ville.  
