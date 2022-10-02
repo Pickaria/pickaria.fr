@@ -1,6 +1,12 @@
+$font-family-sans-serif: "Josefin Sans", sans-serif;
+
 $blue: #78A7FF !default;
 
-$enable-gradients: false;
-$enable-shadows: false;
+$enable-gradients: true;
+$enable-shadows: true;
 $enable-cssgrid: true;
-$enable-rounded: false;
+$enable-rounded: true;
+
+$btn-border-radius: 19px  !default;
+//$btn-border-radius-sm: $border-radius-sm  !default;
+$btn-border-radius-lg: 24px  !default;
