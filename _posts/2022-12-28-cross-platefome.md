@@ -3,7 +3,7 @@ layout: post
 title:  "Le cross plateforme sur Pickaria"
 date:   2021-12-28 14:30:00 +0100
 category: [update, guide]
-image: /assets/images/articles/cross_plateforme.jpg
+image:  articles/cross_plateforme.jpg
 author: Quozul
 ---
 

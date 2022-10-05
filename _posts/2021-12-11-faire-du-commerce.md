@@ -3,7 +3,7 @@ layout: post
 title:  "Faire du commerce"
 date:   2021-12-11 11:00:00 +0100
 category: guide
-image: /assets/images/articles/commerce.jpg
+image:  articles/commerce.jpg
 author: Quozul
 ---
 Sur Pickaria il existe deux façons de faire du commerce. Découvrez comment maitriser les deux à la perfection !

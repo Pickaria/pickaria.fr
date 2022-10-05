@@ -8,76 +8,79 @@ permalink: /
 menu: true
 ---
 <section class="container col-xxl-8 py-5">
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-            {% picture jpt-webp /assets/images/Bloc.jpg class="d-block mx-lg-auto img-fluid" loading="lazy" alt="Logo de
-            Pickaria" width="700" height="500" %}
-        </div>
-        <div class="col-lg-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Pickaria</h1>
-            <p class="lead">Serveur Minecraft survie convivial. Maintenant à jour en 1.18, la <span
-                    class="text-nowrap">« caves and cliffs update »</span> !</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                <a href="https://discord.gg/YR6fVaS" class="btn btn-primary btn-lg px-4 me-md-2" target="_blank"
-                    rel="noopener noreferrer">Rejoins-nous !</button>
-                    <a class="btn btn-outline-primary btn-lg px-4" href="#last_articles">Découvrir</a>
-            </div>
-        </div>
-    </div>
+	<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+		<div class="col-10 col-sm-8 col-lg-6">
+			{% picture jpt-webp Bloc.jpg class="d-block mx-lg-auto img-fluid" loading="lazy" alt="Logo de
+			Pickaria" width="700" height="500" %}
+		</div>
+		<div class="col-lg-6">
+			<h1 class="display-5 fw-bold lh-1 mb-3">Pickaria</h1>
+			<p class="lead">Serveur Minecraft survie convivial. Maintenant à jour en 1.18, la <span
+					class="text-nowrap"
+			>« caves and cliffs update »</span> !</p>
+			<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+				<a
+						href="https://discord.gg/YR6fVaS" class="btn btn-primary btn-lg px-4 me-md-2" target="_blank"
+						rel="noopener noreferrer"
+				>Rejoins-nous !</button>
+					<a class="btn btn-outline-primary btn-lg px-4" href="#last_articles">Découvrir</a>
+			</div>
+		</div>
+	</div>
 </section>
 
 <section class="container py-5" id="features">
-    <h2 class="pb-2 border-bottom">Découvrez les fonctionnalités</h2>
+	<h2 class="pb-2 border-bottom">Découvrez les fonctionnalités</h2>
 
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="feature col">
-            <div class="feature-icon">
-                {% picture jpt-webp /assets/images/features/towny.jpg class="img-fluid" loading="lazy" alt="Towny" %}
-            </div>
-            <h2>Towny</h2>
-            <p>
-                Créez et gérez vos propres villes sur Pickaria. Louez des terrains et faites évoluer votre ville.
-            </p>
-            <a href="/guide/" class="icon-link">
-                Créez votre ville
-            </a>
-        </div>
-        <div class="feature col">
-            <div class="feature-icon">
-                {% picture jpt-webp /assets/images/features/dynmap.jpg class="img-fluid" loading="lazy" alt="Carte
-                dynamique" %}
-            </div>
-            <h2>Carte dynamique</h2>
-            <p>
-                Visualisez le monde de Pickaria, ses villes et où sont vos amis !
-            </p>
-            <a href="/map/" class="icon-link">
-                Visiter la carte
-            </a>
-        </div>
-        <div class="feature col">
-            <div class="feature-icon">
-                {% picture jpt-webp /assets/images/features/esentials.jpg class="img-fluid" loading="lazy"
-                alt="EssentialsX" %}
-            </div>
-            <h2>Economie</h2>
-            <p>
-                Gagnez de la monnaie en jeu et dépensez-la pour agrandir votre ville ou échanger des objets avec
-                d'autres joueurs.
-            </p>
-            <a href="/map/" class="icon-link">
-                Rejoignez-nous pour en découvrir d'avantage !
-            </a>
-        </div>
-    </div>
+	<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+		<div class="feature col">
+			<div class="feature-icon">
+				{% picture jpt-feature features/towny.jpg class="img-fluid" loading="lazy" alt="Towny" %}
+			</div>
+			<h2>Towny</h2>
+			<p>
+				Créez et gérez vos propres villes sur Pickaria. Louez des terrains et faites évoluer votre ville.
+			</p>
+			<a href="/guide/" class="icon-link">
+				Créez votre ville
+			</a>
+		</div>
+		<div class="feature col">
+			<div class="feature-icon">
+				{% picture jpt-feature features/dynmap.jpg class="img-fluid" loading="lazy" alt="Carte
+				dynamique" %}
+			</div>
+			<h2>Carte dynamique</h2>
+			<p>
+				Visualisez le monde de Pickaria, ses villes et où sont vos amis !
+			</p>
+			<a href="/map/" class="icon-link">
+				Visiter la carte
+			</a>
+		</div>
+		<div class="feature col">
+			<div class="feature-icon">
+				{% picture jpt-feature features/esentials.jpg class="img-fluid" loading="lazy"
+				alt="EssentialsX" %}
+			</div>
+			<h2>Economie</h2>
+			<p>
+				Gagnez de la monnaie en jeu et dépensez-la pour agrandir votre ville ou échanger des objets avec
+				d'autres joueurs.
+			</p>
+			<a href="/map/" class="icon-link">
+				Rejoignez-nous pour en découvrir d'avantage !
+			</a>
+		</div>
+	</div>
 </section>
 
 <section class="container py-5" id="custom-cards">
-    <h2 class="pb-2 border-bottom" id="last_articles">Derniers articles</h2>
+	<h2 class="pb-2 border-bottom" id="last_articles">Derniers articles</h2>
 
-    {% include posts.html limit=3 posts=site.posts %}
+	{% include posts.html limit=3 posts=site.posts %}
 
-    <div class="d-flex justify-content-center">
-        <a class="btn btn-primary" href="/blog">Voir plus d'articles</a>
-    </div>
+	<div class="d-flex justify-content-center">
+		<a class="btn btn-primary" href="/blog">Voir plus d'articles</a>
+	</div>
 </section>

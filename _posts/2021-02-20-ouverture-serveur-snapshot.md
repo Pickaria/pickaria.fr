@@ -2,7 +2,7 @@
 layout: post
 title:  "Ouverture du serveur snapshot"
 date:   2021-02-20 17:00:00 +0100
-image: /assets/images/articles/ouverture_du_serveur_snapshot.jpg
+image:  articles/ouverture_du_serveur_snapshot.jpg
 author: Quozul
 modified_date: 2021-06-09 17:00:00 +0100
 category: update

@@ -3,7 +3,7 @@ layout: post
 title:  "Nouveaux datapacks"
 date:   2022-01-14 13:25:00 +0100
 category: [update]
-image: /assets/images/articles/datapacks.jpg
+image:  articles/datapacks.jpg
 author: Quozul
 ---
 Quelques nouvelles fonctionnalités ont été ajoutées sur le serveur, principalement à des fins de décoration !

@@ -3,7 +3,7 @@ layout: post
 title:  "Guide des commandes"
 date:   2021-12-06 12:00:00 +0100
 category: guide
-image: /assets/images/articles/guide_commandes.jpg
+image:  articles/guide_commandes.jpg
 author: Quozul
 modified_date: 2021-12-11 12:00:00 +0100
 ---
