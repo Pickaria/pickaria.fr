@@ -82,3 +82,12 @@ collections:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - shop/node_modules
+  - shop/src
+  - shop/public
+
+include:
+  - _pages
+  - shop/build/
