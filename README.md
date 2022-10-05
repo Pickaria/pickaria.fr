@@ -6,7 +6,7 @@ Windows: please read [Jekyll on Windows](https://jekyllrb.com/docs/installation/
 Ubuntu: please read [Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/).
 
 ```shell
-sudo apt-get install ruby-full build-essential zlib1g-dev
+sudo apt-get install ruby-full build-essential zlib1g-dev libvips-tools
 bundle install
 npm install
 JEKYLL_ENV=production jekyll build

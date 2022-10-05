@@ -7,13 +7,13 @@
     <nav class="nav col-12 col-lg-auto mb-2 justify-content-center mb-lg-0" role="navigation">
         {% for node in site.pages %}
         {% if node.menu %}
-        <li>
+        <div>
             {% if page.url == node.url %}
             <a href="{{ node.permalink }}" class="nav-link px-2 link-secondary" aria-current="page">{{ node.title }}</a>
             {% else %}
             <a href="{{ node.permalink }}" class="nav-link px-2 link-dark">{{ node.title }}</a>
             {% endif %}
-        </li>
+        </div>
         {% endif %}
         {% endfor %}
     </nav>
