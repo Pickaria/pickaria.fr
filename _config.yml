@@ -44,7 +44,6 @@ social:
 permalink: /:categories/:year/:month/:day/:title
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-minifier
   - jekyll-sitemap
