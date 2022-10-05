@@ -2,22 +2,21 @@
   "name": "pickaria",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "JEKYLL_ENV=production bundle exec jekyll build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Quozul/Pickaria.git"
+    "url": "git+https://github.com/Pickaria/pickaria.fr.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Quozul/Pickaria/issues"
+    "url": "https://github.com/Pickaria/pickaria.fr/issues"
   },
-  "homepage": "https://github.com/Quozul/Pickaria#readme",
+  "homepage": "https://github.com/Pickaria/pickaria.fr#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.2"
   }
 }

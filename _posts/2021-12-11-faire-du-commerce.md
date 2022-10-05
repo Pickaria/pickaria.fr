@@ -6,7 +6,7 @@ category: guide
 image: /assets/images/articles/commerce.jpg
 author: Quozul
 ---
-Sur Pickaria il existe deux façon de faire du commerce. Découvrez comment maitriser les deux à la perfection !
+Sur Pickaria il existe deux façons de faire du commerce. Découvrez comment maitriser les deux à la perfection !
 
 ## Gagnez de l'argent
 
@@ -44,7 +44,7 @@ Voir tous les articles dont la mise en vente à expiré et qui sont à récupér
 
 ## Les magasins coffres
 
-Les magasin coffres vous permettent vendre une quantité plus considérables d'objets, cependant les joueurs doivent se déplacer à votre ville. Pensez à ouvrir votre ville à la téléportation avec `/town toggle public on`.
+Les magasin coffres vous permettent de vendre une quantité plus considérables d'objets, cependant les joueurs doivent se déplacer à votre ville. Pensez à ouvrir votre ville à la téléportation avec `/town toggle public on`.
 
 **Voici les étapes pour créer un magasin coffre :**
 

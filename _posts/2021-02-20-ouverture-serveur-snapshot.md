@@ -7,17 +7,15 @@ author: Quozul
 modified_date: 2021-06-09 17:00:00 +0100
 category: update
 ---
-Les premières snapshot de la 1.17 sont là, envie de tester les nouveautés ? Rejoignez-nous !<br><br>
+Les premières snapshot de la 1.17 sont là, envie de tester les nouveautés ? Rejoignez-nous !
 
 Le serveur snapshot vient d'ouvrir, vous pouvez y accéder en vous connectant à l'adresse
-<pre style="display: inline;">snapshot.pickaria.fr</pre> avec la dernière snapshot, le serveur est toujours
-à jour
-!<br><br>
+<pre class="d-inline">snapshot.pickaria.fr</pre>
+avec la dernière snapshot, le serveur est toujours à jour !
 
-Je vous propose ci-dessous un petit guide pour lancer le jeu et rejoindre le serveur en snapshot.<br><br>
+Je vous propose ci-dessous un petit guide pour lancer le jeu et rejoindre le serveur en snapshot.
 
-
-<div class="accordion" id="accordionFlushExample">
+<div class="accordion mb-3" id="accordionFlushExample">
     <div class="accordion-item">
         <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -69,7 +67,8 @@ Je vous propose ci-dessous un petit guide pour lancer le jeu et rejoindre le ser
                     <figure class="figure">
                         <img src="/assets/7.png" class="figure-img img-fluid"
                             alt="Cliquer sur Multijoueur">
-                        <figcaption class="figure-caption">Une fois le jeu lancé, clique sur "Multijoueur"
+                        <figcaption class="figure-caption">
+                            Une fois le jeu lancé, clique sur "Multijoueur"
                         </figcaption>
                     </figure>
                     <figure class="figure">
@@ -90,19 +89,14 @@ Je vous propose ci-dessous un petit guide pour lancer le jeu et rejoindre le ser
 
                     <figure class="figure">
                         <img src="/assets/10.png" class="figure-img img-fluid" alt="Rejoindre !">
-                        <figcaption class="figure-caption">Une fois le serveur ajouté, il ne te reste plus
-                            qu'à cliquer
-                            sur "Rejoindre" !</figcaption>
+                        <figcaption class="figure-caption">
+                        Une fois le serveur ajouté, il ne te reste plus qu'à cliquer sur "Rejoindre" !</figcaption>
                     </figure>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<br>
 
-<strong>Edit (14 avril 2021) :</strong> Le serveur est bloqué en 21w14a suite à la séparation de la Caves &
-Cliffs
-update en 2 parties.<br>
-<strong>Edit (9 juin 2021) :</strong> Le serveur snapshot a été mis à jour en 1.17 ! <a
-    href="/article/mise_a_jour_117">En savoir plus</a>.
+**Edit (14 avril 2021) :** Le serveur est bloqué en 21w14a suite à la séparation de la Caves & Cliffs update en 2 parties.  
+**Edit (9 juin 2021) :** Le serveur snapshot a été mis à jour en 1.17 ! [En savoir plus]({% post_url 2021-06-09-mise_a_jour_117 %}).
