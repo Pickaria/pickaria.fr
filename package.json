@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "jekyll serve",
-    "build": "JEKYLL_ENV=production bundle exec jekyll build"
+    "build": "JEKYLL_ENV=production bundle exec jekyll build",
+    "precompress": "find _site -type f -a -not -name '*.gz' -exec gzip -9kfv {} \\+"
   },
   "repository": {
     "type": "git",

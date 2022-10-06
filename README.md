@@ -38,6 +38,9 @@ npm run dev
 JEKYLL_ENV=production jekyll build
 # or
 npm run build
+
+# Pre-compress files (optional)
+npm run precompress
 ```
 
 ## Sample nginx configuration
@@ -45,9 +48,10 @@ npm run build
 ```conf
 server {
     listen      80;
-    listen [::]:80;
+    listen      [::]:80;
     server_name localhost;
     error_page  404 /404.html;
+    gzip_static on;
 
     location / {
         root        /usr/share/nginx/html;
