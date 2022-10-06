@@ -32,7 +32,7 @@ npm install
 # Serve for development
 jekyll serve
 # or
-npm run serve
+npm run dev
 
 # Build for production
 JEKYLL_ENV=production jekyll build

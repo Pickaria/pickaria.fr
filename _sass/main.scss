@@ -46,10 +46,14 @@
     align-items: center;
 }
 
-.card-cover {
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+@media (min-width: 1200px) {
+	.card-title {
+		font-size: 2.5rem;
+	}
+}
+
+.object-fit-cover {
+	object-fit: cover;
 }
 
 code {
@@ -63,4 +67,12 @@ table {
 	th {
 		border-bottom: solid 1px #222;
 	}
+}
+
+.z-10 {
+	z-index: 10;
+}
+
+.text-shadow-lg {
+	text-shadow: 0 0 10px black;
 }

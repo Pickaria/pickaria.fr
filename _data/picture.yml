@@ -2,7 +2,7 @@ presets:
   default:
     markup: auto
     formats: [ webp, jpg, original ]
-    widths: [ 400, 600, 800, 1000 ]
+    widths: [ 400, 600, 800 ]
     fallback_width: 800
     fallback_format: original
     noscript: true
@@ -19,22 +19,22 @@ presets:
         speed: 8
     data_sizes: true
     keep: attention
-    dimension_attributes: true
+    dimension_attributes: false
     attributes:
       loading: lazy
 
   avatar:
-    crop: 1:1
-    base_width: 64
-    pixel_ratios: [ 1, 1.5, 2 ]
-    fallback_width: 64
-    markup: data_auto
-    noscript: true
+    base_width: 24
+    widths: [ 24, 32 ]
+    fallback_width: 24
 
   feature:
-    crop: 1:1
-    base_width: 128
-    pixel_ratios: [ 1, 1.5, 2 ]
-    fallback_width: 128
-    markup: data_auto
-    noscript: true
+    base_width: 64
+    widths: [ 64 ]
+    fallback_width: 64
+
+  navicon:
+    formats: [ webp, jpg, original ]
+    base_width: 32
+    widths: [ 32 ]
+    fallback_width: 32
