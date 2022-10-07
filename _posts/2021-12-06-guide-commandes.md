@@ -29,7 +29,7 @@ Se téléporter à un point de téléportation définie.
 - `/rmhome <nom de la maison>`  
 Supprimer un point de téléportation.
 
-## Economie
+## Économie
 
 La section a été déplacée sur sa [page dédiée](/guide/2021/12/11/faire-du-commerce).
 

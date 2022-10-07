@@ -14,7 +14,7 @@ Plus celle-ci se développe, plus vous pourrez obtenir de ressources chaque jour
 Pour chercher une nouvelle ressource rare à obtenir, effectuez la commande `/tr survey` en étant sur le territoire de votre ville.  
 Notez que la recherche d'une nouvelle ressource coûte de l'argent à la ville, le prix est indiqué lors de l'exécution de la commande. Cette somme augmente à chaque nouvelle recherche.  
 
-Toutes les 24 h, vous serez elligible à faire `/tr towncollect` afin de récolter toutes les ressources de votre ville.
+Toutes les 24 h, vous serez eligible à faire `/tr towncollect` afin de récolter toutes les ressources de votre ville.
 
 De même, si vous détenez un pays, vous pouvez faire `/tr nationcollect` pour récolter les ressources du pays.
 
