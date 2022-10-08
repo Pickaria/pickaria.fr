@@ -1,37 +1,38 @@
+const times = {
+	year: 31536000,
+	month: 2592000,
+	week: 10080,
+	day: 86400,
+	hour: 3600,
+	minute: 60,
+	second: 0,
+};
+
+const rft = new Intl.RelativeTimeFormat("fr", {
+	localeMatcher: "best fit", // other values: "lookup"
+	numeric: "auto", // other values: "auto"
+	style: "long", // other values: "short" or "narrow"
+});
+
+/**
+ * Format duration since date using the biggest unit
+ * @param {Date} date
+ * @returns {string}
+ */
 function timeSince(date) {
-    const seconds = Math.floor((new Date() - date) / 1000);
+	let duration = (date.getTime() - Date.now()) / 1000;
 
-    let interval = seconds / 31536000;
-
-    if (interval > 1) {
-        return Math.floor(interval) + " an" + (Math.floor(interval) > 1 ? "s" : "");
-    }
-
-    interval = seconds / 2592000;
-    if (interval > 1) {
-        return Math.floor(interval) + " mois";
-    }
-
-    interval = seconds / 86400;
-    if (interval > 1) {
-        return Math.floor(interval) + " jour" + (Math.floor(interval) > 1 ? "s" : "");
-    }
-
-    interval = seconds / 3600;
-    if (interval > 1) {
-        return Math.floor(interval) + " heure" + (Math.floor(interval) > 1 ? "s" : "");
-    }
-
-    interval = seconds / 60;
-    if (interval > 1) {
-        return Math.floor(interval) + " minute" + (Math.floor(interval) > 1 ? "s" : "");
-    }
-
-    return Math.floor(seconds) + " seconde" + (Math.floor(interval) > 1 ? "s" : "");
+	for (const key in times) {
+		if (times.hasOwnProperty(key)) {
+			const time = times[key];
+			if (Math.abs(duration) > time) {
+				return rft.format(Math.trunc(duration / time), key);
+			}
+		}
+	}
 }
 
 document.querySelectorAll("time.dt-published-ago").forEach(time => {
-    const date = new Date(time.getAttribute("datetime"));
-
-    time.innerText = timeSince(date);
+	const date = new Date(time.getAttribute("datetime"));
+	time.innerText = timeSince(date);
 });
