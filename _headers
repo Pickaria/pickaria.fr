@@ -1,0 +1,4 @@
+/*
+  Strict-Transport-Security: max-age=31536000
+  Content-Security-Policy: default-src 'self'; style-src 'self' https://fonts.googleapis.com; object-src 'none'; font-src 'self' https://fonts.gstatic.com; worker-src 'none'; frame-src 'none';
+  X-Frame-Options: DENY
