@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "jekyll serve",
+    "dev": "bundle exec jekyll serve",
     "build": "JEKYLL_ENV=production bundle exec jekyll build",
     "precompress": "find _site -type f -a -not -name '*.gz' -exec gzip -9kfv {} \\+"
   },
