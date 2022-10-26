@@ -7,7 +7,7 @@
                 href="{{ include.post.url | prepend: site.baseurl }}">
                 {{ include.post.title }}
             </a>
-            <ul class="d-flex list-unstyled mt-auto">
+            <ul class="d-flex list-unstyled mt-auto align-items-center">
                 <li class="me-auto">
                     {% picture avatar authors/{{ include.post.author }}.jpg loading="lazy" class="rounded-circle border border-white" width="32" height="32" alt="{{ author }}'s avatar" %}
                 </li>
