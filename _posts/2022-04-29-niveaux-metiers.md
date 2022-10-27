@@ -3,7 +3,7 @@ layout: post
 title:  "Niveaux des métiers"
 date:   2022-01-29 11:00:00 +0100
 category: [update]
-image:  articles/jobs_levels.jpg
+image:  assets/images/articles/jobs_levels.jpg
 author: Quozul
 modified_date: 2022-01-30 16:30:00 +0100
 ---

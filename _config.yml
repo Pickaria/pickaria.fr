@@ -94,6 +94,5 @@ include:
   - _headers
 
 picture:
-  source: "assets/images"
   output: "assets/generated"
   suppress_warnings: false
