@@ -19,7 +19,7 @@ layout: default
         &nbsp;•&nbsp;
         {% for author in page.author %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            {% picture avatar authors/{{ author }}.jpg class="rounded-circle border border-white" itemprop="avatar" width="24" height="24" alt="{{ author }}'s avatar" %}
+            {% picture avatar assets/images/authors/{{ author }}.jpg class="rounded-circle border border-white" itemprop="avatar" width="24" height="24" alt="{{ author }}'s avatar" %}
             <span class="p-author h-card" itemprop="name">{{ author }}
             </span>
           </span>

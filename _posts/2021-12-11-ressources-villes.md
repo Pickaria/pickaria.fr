@@ -3,7 +3,7 @@ layout: post
 title:  "Les ressources des villes"
 date:   2021-12-11 12:00:00 +0100
 category: guide
-image:  articles/ressources-villes.jpg
+image:  assets/images/articles/ressources-villes.jpg
 author: Quozul
 ---
 Être dans une ville octroi de nombreux avantages, l'un deux est que vous pouvez obtenir des ressources rares sans faire le moindre effort !

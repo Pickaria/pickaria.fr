@@ -1,7 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
 title: Accueil
 permalink: /
@@ -10,7 +7,7 @@ menu: true
 <section class="container col-xxl-8 py-5">
 	<div class="row flex-lg-row-reverse align-items-center">
 		<div class="col-12 col-lg-6">
-			{% picture Bloc.jpg class="d-block mx-lg-auto img-fluid" alt="Logo de Pickaria" width="700" height="500" %}
+			{% picture assets/images/pickaria.png class="d-block mx-lg-auto img-fluid" alt="Logo de Pickaria" width="636" height="636" %}
 		</div>
 
 		<div class="col-12 col-lg-6">
@@ -22,7 +19,7 @@ menu: true
 			</p>
 
 			<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-				<a href="https://discord.gg/YR6fVaS" class="btn btn-primary btn-lg px-4 me-md-2" target="_blank" rel="noopener noreferrer">
+				<a href="https://discord.gg/YR6fVaS" class="btn btn-primary btn-lg px-4 me-md-2 d-flex align-items-center gap-2" target="_blank" rel="noopener noreferrer">
 					Rejoins-nous !
 				</a>
 
@@ -32,47 +29,59 @@ menu: true
 	</div>
 </section>
 
-<section class="container py-5" id="features">
+<div class="container py-5">
 	<h2 class="pb-2 border-bottom">Découvrez les fonctionnalités</h2>
+</div>
 
-	<div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-		<div class="feature col">
-			<div class="feature-icon">
-				{% picture feature features/towny.jpg class="img-fluid" loading="lazy" alt="Towny" width="64px" height="64px" %}
-			</div>
-			<h2>Towny</h2>
-			<p>
+<section class="d-flex flex-column gap-5 container col-xxl-8">
+	<div class="row flex-lg-row-reverse align-items-center">
+		<div class="col-12 col-lg-6 order-lg-1">
+			{% picture assets/images/city.png class="d-block mx-lg-auto img-fluid" alt="Joueur posant une bannière." width="636" height="636" loading="lazy" %}
+		</div>
+
+		<div class="col-12 col-lg-6 order-lg-0">
+			<h2 class="display-5 fw-bold lh-1 mb-3">Villes</h2>
+
+			<p class="lead">
 				Créez et gérez vos propres villes sur Pickaria. Louez des terrains et faites évoluer votre ville.
 			</p>
 			<a href="/guide/" class="icon-link">
 				Créez votre ville
 			</a>
 		</div>
+	</div>
 
-		<div class="feature col">
-			<div class="feature-icon">
-				{% picture feature features/dynmap.jpg class="img-fluid" loading="lazy" alt="Carte dynamique" width="64px" height="64px" %}
-			</div>
-			<h2>Carte dynamique</h2>
-			<p>
-				Visualisez le monde de Pickaria, ses villes et où sont vos amis !
-			</p>
-			<a href="/map/" class="icon-link">
-				Visiter la carte
-			</a>
+	<div class="row flex-lg-row-reverse align-items-center">
+		<div class="col-12 col-lg-6 order-lg-0">
+			{% picture assets/images/economy.png class="d-block mx-lg-auto img-fluid" alt="Joueur à côté un coffre avec un diamant dans la main." width="636" height="636" loading="lazy" %}
 		</div>
 
-		<div class="feature col">
-			<div class="feature-icon">
-				{% picture feature features/esentials.jpg class="img-fluid" loading="lazy" alt="EssentialsX" width="64px" height="64px" %}
-			</div>
-			<h2>Economie</h2>
-			<p>
+		<div class="col-12 col-lg-6 order-lg-1">
+			<h2 class="display-5 fw-bold lh-1 mb-3">Économie</h2>
+
+			<p class="lead">
 				Gagnez de la monnaie en jeu et dépensez-la pour agrandir votre ville ou échanger des objets avec
 				d'autres joueurs.
 			</p>
-			<a href="/map/" class="icon-link">
+			<a href="https://map.pickaria.fr/" class="icon-link">
 				Rejoignez-nous pour en découvrir d'avantage !
+			</a>
+		</div>
+	</div>
+
+	<div class="row flex-lg-row-reverse align-items-center">
+		<div class="col-12 col-lg-6 order-lg-1">
+			{% picture assets/images/map.png class="d-block mx-lg-auto img-fluid" alt="Joueur devant une table de cartographe avec une carte dans la main." width="636" height="636" loading="lazy" %}
+		</div>
+
+		<div class="col-12 col-lg-6 order-lg-0">
+			<h2 class="display-5 fw-bold lh-1 mb-3">Carte dynamique</h2>
+
+			<p class="lead">
+				Visualisez le monde de Pickaria, ses villes et où sont vos amis !
+			</p>
+			<a href="https://map.pickaria.fr/" class="icon-link">
+				Visiter la carte
 			</a>
 		</div>
 	</div>
