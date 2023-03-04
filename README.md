@@ -33,6 +33,8 @@ npm install
 jekyll serve
 # or
 npm run dev
+# or
+bundle exec jekyll serve
 
 # Build for production
 JEKYLL_ENV=production jekyll build

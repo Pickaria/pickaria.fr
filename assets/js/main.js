@@ -1,7 +1,7 @@
 const times = {
 	year: 31536000,
 	month: 2592000,
-	week: 10080,
+	week: 604800,
 	day: 86400,
 	hour: 3600,
 	minute: 60,
@@ -9,9 +9,9 @@ const times = {
 };
 
 const rft = new Intl.RelativeTimeFormat("fr", {
-	localeMatcher: "best fit", // other values: "lookup"
-	numeric: "auto", // other values: "auto"
-	style: "long", // other values: "short" or "narrow"
+	localeMatcher: "best fit",
+	numeric: "auto",
+	style: "long",
 });
 
 /**
