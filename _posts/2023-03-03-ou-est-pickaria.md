@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Où est passé Pickaria ?"
-date:   2023-03-03 10:00:00 +0100
+date:   2023-03-04 16:25:00 +0100
 category: [update]
 image:  assets/images/articles/ou-est-pickaria/spawn-pickaria.png
 author: Quozul
@@ -61,6 +61,7 @@ Pas étonnant, la fonctionnalité était bien cachée et les récompenses donné
 
 Une fois que les joueurs ont toute l'armure en netherite et même la houe de ce même matériau, que reste-t-il à faire ?
 Tourner en rond jusqu'à trouver un autre serveur sur lequel jouer...
+Alors on ajoute une fonctionnalité pour proposer de l'amélioration à l'infini !
 
 <video controls class="img-fluid rounded">
     <source src="/assets/videos/reforger.m4v" width="1280" height="704" type="video/mp4">
@@ -93,15 +94,14 @@ On obtient ensuite un livret pour gérer la ville.
 
 #### Des événements ?
 
-Donner un objet incassable le 25 décembre n'est pas ce qu'on peut définir "d'événements" surtout quand un bug permet de les dupliquer...
+Donner un objet incassable le 25 décembre n'est pas ce qu'on peut définir "d'événements" surtout si bug permet de les dupliquer...
 Mais je vous avouerai qu'organiser des événements est assez long, enfin ça, c'est quand on n'automatise pas avec un plugin !
 
 Rien n'est encore prévu, mais j'ai quelques idées que je garde en tête, ça restera la surprise jusqu'au moment venu.
 
 ### Les bugs
 
-Bugs de duplications parce que j'ai mal fait mon travail...
-La plupart des bugs proviennent du plugin sur-mesure bizarrement.
+Les bugs de duplications arrivent lorsqu'il y a des erreurs dans le développement.
 Pour espérer avoir le moins de bugs possibles, je compte organiser une période de test, où tous les joueurs participants pourront obtenir des récompenses, mais cela reste à définir.
 
 ### L'administration
@@ -119,7 +119,8 @@ La seconde est d'ouvrir une boutique, sans rendre le serveur pay-to-win pour aut
 
 ## Mot de la fin
 
-Merci à tous pour cette aventure, la suite arrive très bientôt, je compte sur vous !
+Merci à tous pour cette aventure, la suite arrive très bientôt, je compte sur vous pour !
+Pour ne pas manquer l'occasion, je vous invite à rejoindre [le serveur Discord](https://discord.gg/YR6fVaS).
 
 ---
 
