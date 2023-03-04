@@ -1,8 +1,13 @@
-<div class="text-center text-lg-end py-2 border-bottom">
-    Adresse du serveur :
-    <span class="text-muted cursor-pointer user-select-all">
-        play.pickaria.fr
-    </span>
+<div class="d-flex justify-content-between border-bottom py-2 align-items-center">
+    <button class="btn btn-sm btn-light" data-bs-theme-value="light" id="switchTheme" aria-label="Changer le thème du site">
+        <img id="themeIcon" src="/assets/images/icons/light.svg" alt="Icône du thème" height="16" width="16" />
+    </button>
+    <div class="text-lg-end">
+        Adresse du serveur :
+        <span class="text-muted cursor-pointer user-select-all">
+			play.pickaria.fr
+		</span>
+    </div>
 </div>
 
 <header
@@ -16,9 +21,9 @@
         {% if node.menu %}
         <div>
             {% if page.url == node.url %}
-            <a href="{{ node.permalink }}" class="nav-link px-2 link-secondary" aria-current="page">{{ node.title }}</a>
+            <a href="{{ node.permalink }}" class="nav-link px-2 text-reset" aria-current="page">{{ node.title }}</a>
             {% else %}
-            <a href="{{ node.permalink }}" class="nav-link px-2 link-dark">{{ node.title }}</a>
+            <a href="{{ node.permalink }}" class="nav-link px-2 text-muted">{{ node.title }}</a>
             {% endif %}
         </div>
         {% endif %}
