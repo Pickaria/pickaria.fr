@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "L'histoire particulière de Pickaria"
-date:   2022-01-03 04:06:51 +0100
-category: [update, guide]
+title:  "L'histoire de Pickaria"
+date:   2024-05-14 13:56:00 +0100
+category: [update]
 image: /assets/images/articles/Pickaria_history.jpg
-author: Hajïn
+author: Hajin
 ---
 <h1><em><u>L&rsquo;histoire de Pickaria du d&eacute;but &agrave; son ascension</u></em></h1>
 <p>&nbsp;</p>
