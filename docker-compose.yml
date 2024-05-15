@@ -1,17 +1,6 @@
-version: "3"
-
-networks:
-  traefik:
-    external: true
-
 services:
   site:
     build: .
-    networks:
-      - traefik
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.pickaria.rule=Host(`test.pickaria.fr`)"
-      - "traefik.http.routers.pickaria.entrypoints=websecure"
-      - "traefik.http.routers.pickaria.tls.certresolver=myresolver"
-      - "traefik.http.services.pickaria.loadbalancer.server.port=80"
+    ports:
+      - "8000:80"
+

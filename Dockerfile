@@ -4,7 +4,7 @@ FROM alpine:latest AS builder
 # ruby-devs installs ruby
 # build-base installs gcc make
 # npm installs nodejs
-RUN apk --no-cache add build-base vips-tools ruby-dev npm
+RUN apk --no-cache add build-base vips-tools ruby-dev npm linux-headers
 RUN gem install jekyll bundler
 ENV GEM_HOME="$HOME/gems"
 ENV PATH="$HOME/gems/bin:$PATH"
