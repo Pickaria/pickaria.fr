@@ -1,28 +1,46 @@
 ---
 layout: post
-title:  "L'histoire de Pickaria"
-date:   2024-05-14 13:56:00 +0100
+title: "L'histoire de Pickaria"
+date: 2024-05-15 10:15:00 +0100
 category: [update]
-image: /assets/images/articles/Pickaria_history.jpg
+image: /assets/images/articles/Pickaria_history.png
 author: Hajin
 ---
-<h1><em><u>L&rsquo;histoire de Pickaria du d&eacute;but &agrave; son ascension</u></em></h1>
-<p>&nbsp;</p>
-<h3><u>Partie 1 &ndash; Les origines</u></h3>
-<p>Tout d&rsquo;abord, Pickaria n&rsquo;a pas toujours &eacute;t&eacute; Pickaria et m&ecirc;me tr&egrave;s loin du contexte dans lequel nous le connaissons aujourd&rsquo;hui.</p>
-<p>L&rsquo;id&eacute;e d&rsquo;un serveur publique provient de l&rsquo;imagination de Hajïn en premier lieu qui tenta mainte fois de r&eacute;aliser son r&ecirc;ve d&rsquo;enfance qui &eacute;tait d&rsquo;avoir son propre serveur, car ses serveurs favoris avaient ferm&eacute; (Weokk.org et unlimitedCraft).</p>
-<p>Notre serveur (surtout celui d&rsquo;Hajïn puisqu'avec Quozul, ils ne se connaissaient pas encore) a d&rsquo;abord &eacute;t&eacute; connus (pour peu de personnes) en tant que serveur priv&eacute; entre ami(e)s apparu en 2014 pour les joueurs qui &eacute;tait proche d&rsquo;Hajïn.</p>
-<p>A cette &eacute;poque, c'&eacute;tait un serveur survie qui avait pour but de devenir public dans le futur, c&rsquo;est pourquoi Hajïn s&rsquo;&eacute;tait arm&eacute;e d&rsquo;un petit groupe d&rsquo;ami(e)s proche afin de r&eacute;aliser des constructions en vue d&rsquo;une future ouverture. Ce projet a &eacute;t&eacute; avort&eacute; plusieurs fois bien qu&rsquo;il avan&ccedil;ait convenablement car nous n&rsquo;avions plus la motivation apr&egrave;s qu&rsquo;un &eacute;v&eacute;nement nous ai mis un peu dans les bas du serveur. Il y a eu plusieurs essais tout au long de ces 3 ann&eacute;es qui furent les origines de Pickaria, en 2017 nous avons finalement abandonn&eacute; l&rsquo;id&eacute;e de l&rsquo;ouvrir au public et avec les nouvelles visions d&rsquo;Hajïn, qui a mis Minecraft derri&egrave;re, cette version s&rsquo;est finalement endormie a jamais&hellip;</p>
-<p>&nbsp;</p>
-<h3><u>Partie 2 &ndash; Le commencement</u></h3>
-<p>Pickaria n&rsquo;est pas n&eacute; Pickaria. En 2018, le pr&eacute;curseur de ce que deviendra Pickaria &eacute;tait n&eacute;. Quozul avait rejoint dans le but d'aider à sa configuration et c&rsquo;est ainsi que pour la premi&egrave;re fois, l&rsquo;&eacute;quipe du staff de Pickaria s&rsquo;est form&eacute; (si vous voulez plus de d&eacute;tails sur l&rsquo;arriv&eacute;e de quozul il faut finir de lire l&rsquo;article&nbsp;:wink: ). Cette version n&rsquo;a pas dur&eacute; tr&egrave;s longtemps, de l&rsquo;ordre de 2 &agrave; 3 mois suivis d&rsquo;une autre version de 3 mois &eacute;galement, en suite nous avons remis a 0 le serveur et avons ouvert de nouveau mais cette fois-ci, gr&acirc;ce au stream, avait r&eacute;ussi &agrave; r&eacute;unir quelques personnes sur un serveur qui sera, pour quelques un, la version qui aura enfin aboutit et permis de jouer ensemble en communaut&eacute;&nbsp;! Et &ccedil;a sera en 1.13 que la premi&egrave;re version de Pickaria fut ouverte au public&nbsp;! et avec cette nouvelle id&eacute;e forg&eacute;e par Hajïn et Quozul, de nouvelles ambitions, le 11.01.2019 a &eacute;t&eacute; cr&eacute;er le serveur discord afin de nous retrouver et avoir l&rsquo;actualit&eacute; de Pickaria, ce qui d&eacute;clara que l&rsquo;ère de Pickaria, &eacute;tait sur le point de commencer.</p>
-<p>&nbsp;</p>
-<h3><u>Partie 3 &ndash; hier</u></h3>
-<p>Le chemin qui nous a permis d&rsquo;arriv&eacute; jusqu&rsquo;&agrave; aujourd&rsquo;hui a &eacute;t&eacute; particulier &eacute;tant donn&eacute; que nous n&rsquo;avions pas sp&eacute;cialement de jours assidus d&ucirc; au fait que nous ne faisions pas de pub ni rien a part le bouche a oreille qui nous a permis d&rsquo;amener quelques joueurs que nous connaissions bien, c&rsquo;&eacute;tait notre vision, un serveur public mais qui &eacute;tait sur la base de connaissances a connaissances, cela a durer de la version 1.13.2 jusqu&rsquo;&agrave; la 1.17,&nbsp; nous sommes passer par plusieurs phase, chronologiquement nous avons fait 1.13 -&gt; 1.14 avec beaucoup de retour en 1.13.2 d&ucirc; &agrave; l&rsquo;instabilit&eacute; du build 1.14, en suite nous sommes passer sur une version modd&eacute; 1.12.2 qui contenait un modpack complet con&ccedil;u par Quozul, mais par manque de joueurs nous avons du ferm&eacute;. Finalement c&rsquo;est en 1.15.2 que Pickaria revient de nouveau&nbsp;! et cette fois ci le serveur ne s&rsquo;est pas arr&ecirc;t&eacute; depuis cette version, avec m&ecirc;me un passage en 1.16 et ainsi de suite sans catastrophe&nbsp;! Pickaria &eacute;tait donc enfin notre but ultime, jusqu&rsquo;&agrave; hier, la 1.18, celle qui d&eacute;marrait notre nouvelle aventure, celle que vous avez tous connu, Pickaria &eacute;tait enfin ouverte au public et gr&acirc;ce a vous tous, a fini par &ecirc;tre peupl&eacute; et joué au quotidiens par pas mal de joueurs et nous en sommes fi&egrave;res, car gr&acirc;ce &agrave; nous tous ( surtout vous!), Pickaria à enfin rempli son premier objectif.</p>
-<h3><u>Partie 4 - Renaissance</u></h3>
-<p>Aujourd'hui, Nous sommes fière de vous présenter le futur de pickaria. Nous avons enfin réuni tous ce dont nous avions besoin, afin de relancer ce serveur qui jusqu'a aujourd'hui et pendant ces 2 dernières années, à malheureusement du fermer ses portes et n'a jamais pu ouvrir de nouveau. Mais c'est aujourd'hui, et après tous les efforts de Quozul sur le développement du plugin, que nous pouvons enfin vous le dire, oui, Pickaria est de retour, et pour un très long moment !</p>
-<p>Le serveur ouvrira ses portes à 17h30 le vendredi 17 mai 2024, et vous pourrez commencer votre aventure dès 18h!</p>
-<p>N'hésitez pas à lire l'article sur les nouveautés du serveur pour savoir ce qu'il vous attend dans cette version, L'équipe du staff vous souhaite un bon retour pour certains, la bienvenue pour d'autres, et faites chauffer les pioches !</p>
+
+<h1><em><u>L'histoire de Pickaria: du début à son ascension</u></em></h1>
 
 <p>&nbsp;</p>
-<p>Pour la petite anecdote, c&rsquo;est la fain&eacute;antise de Hajïn qui a men&eacute; Quozul sur ce qui &eacute;tait les premiers moments de Pickaria, Hajïn avait demander a Quozul de configurer le plugin PermissionsEx, et cet &eacute;v&eacute;nement a fini par faire rester Quozul et il y a &eacute;tablie sa maison et d&eacute;marrer une nouvelle aventure avec Hajïn a ses c&ocirc;t&eacute;s pour l&rsquo;&eacute;pauler&nbsp;!</p>
+
+<h3><u>Partie 1 - Les origines</u></h3>
+
+<p>Tout d'abord, Pickaria n'a pas toujours été Pickaria et était même très loin du contexte dans lequel nous le connaissons aujourd'hui.</p>
+
+<p>L'idée d'un serveur public provient de l'imagination de Hajïn en premier lieu, qui a tenté à maintes reprises de réaliser son rêve d'enfance qui était d'avoir son propre serveur, car ses serveurs favoris avaient fermé (Weokk et unlimitedCraft).</p>
+
+<p>Notre serveur (surtout celui d'Hajïn puisqu'avec Quozul, ils ne se connaissaient pas encore) a d'abord été connu (pour peu de personnes) en tant que serveur privé entre amis apparu en 2014 pour les joueurs qui étaient proches d'Hajïn.</p>
+
+<p>A cette époque, c'était un serveur survie qui avait pour but de devenir public dans le futur, c'est pourquoi Hajïn s'était armé d'un petit groupe d'amis proches afin de réaliser des constructions en vue d'une future ouverture. Ce projet a été avorté plusieurs fois bien qu'il avançait convenablement car nous n'avions plus la motivation après qu'un événement nous ait mis un peu dans les bas du serveur. Il y a eu plusieurs essais tout au long de ces 3 années qui furent les origines de Pickaria, en 2017 nous avons finalement abandonné l'idée de l'ouvrir au public et avec les nouvelles visions d'Hajïn, qui a mis Minecraft derrière, cette version s'est finalement endormie à jamais...</p>
+
+<p>&nbsp;</p>
+
+<h3><u>Partie 2 - Le commencement</u></h3>
+
+<p>Pickaria n'est pas né Pickaria. En 2018, le précurseur de ce que deviendra Pickaria était né. Quozul avait rejoint dans le but d'aider à sa configuration et c'est ainsi que pour la première fois, l'équipe du staff de Pickaria s'est formée (si vous voulez plus de détails sur l'arrivée de Quozul, il faut finir de lire l'article :wink: ). Cette version n'a pas duré très longtemps, de l'ordre de 2 à 3 mois suivis d'une autre version de 3 mois également, ensuite nous avons remis à 0 le serveur et avons ouvert de nouveau mais cette fois-ci, grâce au stream, avait réussi à réunir quelques personnes sur un serveur qui sera, pour quelques-uns, la version qui aura enfin abouti et permis de jouer ensemble en communauté ! Et ça sera en 1.13 que la première version de Pickaria fut ouverte au public ! et avec cette nouvelle idée forgée par Hajïn et Quozul, de nouvelles ambitions, le 11.01.2019 a été créé le serveur discord afin de nous retrouver et avoir l'actualité de Pickaria, ce qui déclarait que l'ère de Pickaria, était sur le point de commencer.</p>
+
+<p>&nbsp;</p>
+
+<p>Pour la petite anecdote, c'est la fainéantise d'Hajïn qui a mené Quozul sur ce qui était les premiers moments de Pickaria, Hajïn avait demandé à Quozul de configurer le plugin PermissionsEx, et cet événement a fini par faire rester Quozul et il y a établi sa maison et démarrer une nouvelle aventure avec Hajïn à ses côtés pour l'épauler !</p>
+
+<p>&nbsp;</p>
+
+<h3><u>Partie 3 - Hier</u></h3>
+
+<p>Le chemin qui nous a permis d'arriver jusqu'à aujourd'hui a été particulier étant donné que nous n'avions pas spécialement de jours assidus dû au fait que nous ne faisions pas de pub ni rien d'autre que le bouche à oreille qui nous a permis d'amener quelques joueurs que nous connaissions bien, c'était notre vision, un serveur public mais qui était sur la base de connaissances à connaissances, cela a duré de la version 1.13.2 jusqu'à la 1.17, nous sommes passés par plusieurs phases, chronologiquement nous avons fait 1.13 -> 1.14 avec beaucoup de retours en 1.13.2 dû à l'instabilité de la version 1.14 (c'est d'ailleurs à ces versions que le premier plugin custom apparut), ensuite nous sommes passés sur une version moddée 1.12.2 qui contenait un modpack complet conçu par Quozul, mais par manque de joueurs nous avons dû fermer. Finalement c'est en 1.15.2 que Pickaria revient de nouveau ! et cette fois-ci le serveur ne s'est pas arrêté depuis cette version même si nous repartions sur une carte vierge à chaque version, avec un passage en 1.16 et en 1.17 et ainsi de suite sans catastrophe ! Pickaria était donc enfin notre but ultime, jusqu'à hier, la 1.18, celle qui démarrait notre nouvelle aventure, celle que vous avez tous connue, Pickaria était enfin ouvert au public et grâce à vous tous, a fini par être peuplé et joué au quotidien par plusieurs centaines de joueurs et nous en sommes fiers, car grâce à nous tous (surtout vous !), Pickaria a enfin rempli son premier objectif.
+
+<h3><u>Partie 4 - Renaissance</u></h3>
+
+<p>Aujourd'hui, nous sommes fiers de vous présenter le futur de Pickaria. Nous avons enfin réuni tout ce dont nous avions besoin, afin de relancer ce serveur qui, jusqu'à aujourd'hui et pendant ces 2 dernières années, a malheureusement dû fermer ses portes et n'a jamais pu rouvrir. Mais c'est aujourd'hui, et après tous les efforts de Quozul sur le développement du plugin, que nous pouvons enfin vous le dire, oui, Pickaria est de retour, et pour un très long moment !</p>
+
+<p>Le serveur ouvrira ses portes à 17h30 le vendredi 17 mai 2024, et vous pourrez commencer votre aventure dès 18h !</p>
+
+<p>N'hésitez pas à lire l'article sur les nouveautés du serveur pour savoir ce qui vous attend dans cette version. L'équipe du staff vous souhaite un bon retour pour certains, la bienvenue pour d'autres, et faites chauffer les pioches !</p>
