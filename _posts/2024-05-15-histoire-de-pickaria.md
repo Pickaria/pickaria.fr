@@ -7,9 +7,7 @@ image: /assets/images/articles/Pickaria_history.png
 author: Hajin
 ---
 
-# L'histoire de Pickaria: du début à son ascension</u></em></h1>
-
-
+# L'histoire de Pickaria
 
 ## Partie 1 - Les origines
 
