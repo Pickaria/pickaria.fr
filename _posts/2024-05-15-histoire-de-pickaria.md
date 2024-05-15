@@ -7,7 +7,7 @@ image: /assets/images/articles/Pickaria_history.png
 author: Hajin
 ---
 
-# L'histoire de Pickaria
+Pickaria, une aventure de longue date... Retraçons ses origines !
 
 ## Partie 1 - Les origines
 
