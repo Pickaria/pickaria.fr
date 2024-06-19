@@ -5,7 +5,7 @@ date:   2022-01-29 11:00:00 +0100
 category: [update]
 image:  assets/images/articles/jobs_levels.jpg
 author: Quozul
-modified_date: 2022-01-30 16:30:00 +0100
+modified_date: 2024-06-19 18:00:00 +0200
 ---
 Depuis le temps que vous exercez vos métiers, il faut bien que vous en soyez récompensé.
 
@@ -24,9 +24,9 @@ Chaque action du métier rapporte au minimum 1 d'experience dans le métier.
 | Chasseur   | 1575      | 6 022     | 41 907    | 418 418    |
 | Commerçant | 1 421     | 3 673     | 11 780    | 59 994     |
 | Éleveur    | 1 476     | 4 537     | 22 142    | 171 037    |
-| Enchanteur | 1 421     | 3 673     | 11 780    | 59 994     |
+| Mineur     | 1 421     | 3 673     | 11 780    | 59 994     |
 | Fermier    | 1 466     | 4 359     | 19 780    | 143 226    |
-| Mineur     | 1 402     | 3 430     | 9 420     | 39 577     |
+| Enchanteur | 1 402     | 3 430     | 9 420     | 39 577     |
 
 ## Gains par métiers
 
