@@ -1,0 +1,13 @@
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-4 items-stretch">
+  {{ for post of search.pages("type=post", "createdAt=desc", limit) }}
+    {{
+      include "templates/post.vto" {
+        createdAt: post.createdAt,
+        image: post.image,
+        author: post.author,
+        title: post.title,
+        url: post.url,
+      }
+    }}
+  {{ /for }}
+</div>

@@ -1,0 +1,18 @@
+---
+layout: layouts/base.vto
+title: Blog
+url: /blog/
+menu:
+  visible: true
+  order: 1
+---
+
+<section class="container py-5 lg:mt-20">
+  <h2 class="text-4xl lg:text-6xl font-bold lg:text-center">
+    Le blog
+  </h2>
+
+  <div class="my-8">
+    {{ include "templates/posts.vto" }}
+  </div>
+</section>

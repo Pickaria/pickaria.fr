@@ -1,0 +1,96 @@
+---
+layout: layouts/base.vto
+---
+<article
+  class="container mx-auto py-5 lg:mt-20"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <header class="mb-4">
+    {{ include "templates/breadcrumb.vto" }}
+
+    <h1 class="text-3xl font-bold p-name" itemprop="name headline">
+      {{ title }}
+    </h1>
+
+    <p class="flex flex-wrap items-center text-gray-600">
+      <time datetime="{{ createdAt | date }}" itemprop="datePublished">
+        {{ createdAt |> date("HUMAN_DATE", "fr") }}
+      </time>
+
+      {{ if updatedAt }}
+        &nbsp;~&nbsp;
+        <time datetime="{{ updatedAt | date }}" itemprop="dateModified">
+          {{ updatedAt |> date("HUMAN_DATE", "fr") }}
+        </time>
+      {{ /if }}
+
+      {{ if author }}
+        &nbsp;•&nbsp;
+        <span
+          class="flex items-center gap-2"
+          itemprop="author"
+          itemscope
+          itemtype="http://schema.org/Person"
+        >
+          <img
+            src="{{ '/assets/images/authors/' + author }}.jpg"
+            class="rounded-full border-2 border-white h-8 w-8"
+            width="32"
+            height="32"
+            alt="{{ author }}'s avatar"
+            transform-images="avif webp jpg 32"
+          />
+          <span class="p-author h-card" itemprop="name">
+            {{ author }}
+          </span>
+        </span>
+      {{ /if }}
+    </p>
+  </header>
+
+  <div class="flex flex-col items-center" itemprop="articleBody">
+    <div class="max-w-prose w-full">
+      <img
+        src="{{ image }}"
+        class="w-full shadow rounded-xl mb-2"
+        alt="{{page.title}}"
+        transform-images="avif webp jpg 648"
+      />
+    </div>
+
+    <div class="max-w-prose">
+      <div class="prose text-justify">
+        {{ content }}
+      </div>
+
+      <hr class="my-4 border-gray-300">
+
+      <nav>
+        <ul class="flex flex-col gap-4 lg:flex-row justify-between">
+          {{ set previousPost = search.previousPage(url, "type=post") }}
+          {{ if previousPost }}
+            <li class="text-left">
+              <a href="{{ previousPost.url }}" rel="prev" class="flex flex-col">
+                <span>← Précédent</span>
+                <strong>{{ previousPost.title }}</strong>
+              </a>
+            </li>
+          {{ /if }}
+
+          {{ set nextPost = search.nextPage(url, "type=post") }}
+          {{ if nextPost }}
+            <li class="ml-auto text-right">
+              <a href="{{ nextPost.url }}" rel="next" class="flex flex-col">
+                <span>Suivant →</span>
+                <strong>{{ nextPost.title }}</strong>
+              </a>
+            </li>
+          {{ /if }}
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ it.lang || metas.lang }}">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ it.title || metas.title }} | {{ metas.site }}</title>
+
+    <meta name="color-scheme" content="light">
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="{{ url |> url(true) }}">
+  </head>
+
+  <body class="flex flex-col min-h-screen items-center px-2">
+    <div class="container">
+      {{ include "templates/header.vto" }}
+    </div>
+
+    <main class="container grow">
+      {{ content }}
+    </main>
+
+    <div class="container">
+      {{ include "templates/footer.vto" }}
+    </div>
+  </body>
+</html>

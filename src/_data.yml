@@ -1,0 +1,33 @@
+menu_links:
+  - href: https://map.pickaria.fr
+    text: Carte dynamique
+    header: true
+  - href: https://discord.gg/YR6fVaS
+    text: Discord
+    rel: noopener noreferrer
+    target: _blank
+  - href: https://status.pickaria.fr/
+    text: Statut
+
+social_links:
+  - href: https://github.com/Pickaria
+    name: GitHub
+    icon: /assets/icons/github.svg
+  - href: https://twitter.com/pickaria
+    name: Twitter
+    icon: /assets/icons/twitter-x.svg
+  - href: https://discord.gg/YR6fVaS
+    name: Discord
+    icon: /assets/icons/discord.svg
+  - href: https://www.instagram.com/pickariamc/
+    name: Instagram
+    icon: /assets/icons/instagram.svg
+
+# Metas plugin https://lume.land/plugins/metas/#description
+metas:
+  site: Pickaria
+  description: Serveur Minecraft survie convivial. Maintenant à jour en 1.20 !
+  title: "=title"
+  image: "=image"
+  twitter: "@pickaria"
+  lang: fr

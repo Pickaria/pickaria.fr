@@ -1,0 +1,41 @@
+<a href="{{ url }}" class="block w-full h-full relative">
+  <img
+    src="{{ image }}"
+    class="object-cover w-full h-full absolute rounded-xl shadow"
+    loading="lazy"
+    alt="{{title}}"
+    transform-images="avif webp jpg 502"
+  />
+
+  <div
+    class="relative text-white p-6 flex flex-col justify-between h-full bg-gradient-to-t from-black to-transparent rounded-xl"
+  >
+    <span class="text-white mt-20 mb-6 font-bold text-5xl">
+      {{ title }}
+    </span>
+
+    <ul class="flex list-none items-center mt-auto">
+      <li class="mr-auto">
+        <img
+          src="{{ '/assets/images/authors/' + author }}.jpg"
+          class="rounded-full border-2 border-white h-8 w-8"
+          loading="lazy"
+          alt="{{ author }}'s avatar"
+          width="32"
+          height="32"
+          transform-images="avif webp jpg 32"
+        />
+      </li>
+
+      <li class="mr-3 text-sm">
+        {{ author }}
+      </li>
+
+      <li class="text-sm">
+        <time datetime="{{ createdAt | date }}" itemprop="datePublished">
+          {{ createdAt |> date("HUMAN_DATE", "fr") }}
+        </time>
+      </li>
+    </ul>
+  </div>
+</a>
