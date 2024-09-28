@@ -9,7 +9,7 @@ layout: layouts/base.vto
   <header class="mb-4">
     {{ include "templates/breadcrumb.vto" }}
 
-    <h1 class="text-3xl font-bold p-name" itemprop="name headline">
+    <h1 class="text-4xl lg:text-6xl font-bold p-name" itemprop="name headline">
       {{ title }}
     </h1>
 
@@ -53,8 +53,8 @@ layout: layouts/base.vto
     <div class="max-w-prose w-full">
       <img
         src="{{ image }}"
-        class="w-full shadow rounded-xl mb-2"
-        alt="{{page.title}}"
+        class="w-full shadow rounded-xl mb-2 cover"
+        alt="{{ page.title }}"
         transform-images="avif webp jpg 648"
       />
     </div>

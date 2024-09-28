@@ -9,6 +9,8 @@ oldUrl: /update/2022/01/14/nouveaux-datapacks
 
 Quelques nouvelles fonctionnalités ont été ajoutées sur le serveur, principalement à des fins de décoration !
 
+<!--more-->
+
 ## Tombes
 
 Lors de votre mort, une tombe sera créée que seulement vous pourrez récupérer, elles ne peuvent donc pas être volées.\

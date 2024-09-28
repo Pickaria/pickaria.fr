@@ -10,6 +10,8 @@ oldUrl: /guide/2021/12/06/guide-commandes
 
 Besoin d'aide pour utiliser les commandes sur le serveur ? Voici un guide qui pourra vous aider !
 
+<!--more-->
+
 ## Social
 
 - `/m <pseudo du joueur> <message>`\

@@ -9,6 +9,8 @@ oldUrl: /update/2024/05/15/histoire-de-pickaria
 
 Pickaria, une aventure de longue date... Retraçons ses origines !
 
+<!--more-->
+
 ## Partie 1 - Les origines
 
 Tout d'abord, Pickaria n'a pas toujours été Pickaria et était même très loin du contexte dans lequel nous le connaissons aujourd'hui.

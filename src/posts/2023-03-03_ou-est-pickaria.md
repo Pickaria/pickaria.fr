@@ -9,6 +9,8 @@ oldUrl: /update/2023/03/04/ou-est-pickaria
 
 Ce n'est pas un secret, Pickaria n'est plus un serveur actif. Mais nous préparons son avenir !
 
+<!--more-->
+
 ## La version de Pickaria 2021
 
 Pickaria dans sa version la plus populaire a ouvert fin 2021, parfait pour la période des fêtes de fin d'année.
