@@ -24,6 +24,7 @@ site
   .use(tailwindcss({
     options: {
       plugins: [typography],
+      /*darkMode: ['selector', '[data-mode="dark"]'],*/
       theme: {
         fontFamily: {
           sans: ["Josefin Sans", "system-ui", "sans-serif"],
