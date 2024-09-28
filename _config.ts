@@ -57,6 +57,7 @@ site
   .copy("assets/videos")
   .copy("assets/icons")
   .copy("assets/fonts")
+  .copy("assets/js")
   .copy("favicon.ico")
   .preprocess([".md"], (pages) => {
     for (const page of pages) {
