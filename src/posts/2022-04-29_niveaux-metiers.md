@@ -10,6 +10,8 @@ oldUrl: /update/2022/01/29/niveaux-metiers
 
 Depuis le temps que vous exercez vos métiers, il faut bien que vous en soyez récompensé.
 
+<!--more-->
+
 Désormais lorsque vous montez de niveau, vos gains en seront améliorés !
 
 Suite à cette mise à jour, la formule de calcul des niveaux a été modifiée, vous conservez votre expérience donc pas de départ de zéro.

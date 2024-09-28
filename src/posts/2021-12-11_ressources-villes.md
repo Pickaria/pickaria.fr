@@ -9,6 +9,8 @@ oldUrl: /guide/2021/12/11/ressources-villes
 
 Être dans une ville octroi de nombreux avantages, l'un deux est que vous pouvez obtenir des ressources rares sans faire le moindre effort !
 
+<!--more-->
+
 Lorsque vous créez votre ville, vous êtes automatiquement éligible à une ressource rare.\
 Plus celle-ci se développe, plus vous pourrez obtenir de ressources chaque jour.
 

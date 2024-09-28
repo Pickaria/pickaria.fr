@@ -9,6 +9,8 @@ oldUrl: /guide/2021/12/11/faire-du-commerce
 
 Sur Pickaria il existe deux façons de faire du commerce. Découvrez comment maitriser les deux à la perfection !
 
+<!--more-->
+
 ## Gagnez de l'argent
 
 Vous pouvez collecter de l'argent sur le serveur en tuant des monstres ou en minant des resources.

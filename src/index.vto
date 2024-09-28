@@ -7,56 +7,65 @@ menu:
   order: 0
 ---
 
-<section class="container mx-auto py-5">
-  <div class="grid lg:grid-cols-2 justify-between items-center">
-    <div>
-      <h1 class="text-5xl lg:text-7xl font-bold mb-6">
-        Plonge dans une aventure inédite
-      </h1>
+<section
+  class="container mx-auto py-5 grid lg:grid-cols-2 justify-between items-center lg:mt-20"
+>
+  <div>
+    <h1
+      class="text-5xl lg:text-7xl font-bold mb-6 text-slate-900 dark:text-white"
+    >
+      Plonge dans une
+      <span
+        class="bg-clip-text text-transparent bg-gradient-to-br dark:from-amber-400 dark:to-amber-600 from-amber-600 to-amber-800"
+      >
+        aventure
+      </span>
+      inédite
+    </h1>
 
-      <p class="text-xl lg:text-3xl mb-3">
-        Explore un serveur survie Semi-RP Minecraft, commerce avec les autres
-        joueurs, exerce ton métier et gère ta ville. Rejoins une communauté
-        dynamique pour vivre l'aventure ultime.
-      </p>
+    <p class="text-xl lg:text-3xl mb-4 text-slate-900 dark:text-slate-200">
+      Explore un serveur survie Semi-RP Minecraft, commerce avec les autres
+      joueurs, exerce ton métier et gère ta ville. Rejoins une communauté
+      dynamique pour vivre l'aventure ultime.
+    </p>
 
-      <div class="flex gap-4 md:justify-start">
-        <span
-          class="bg-yellow-300 btn cursor-pointer"
-          href="#last_articles"
-        >
-          <img src="/assets/icons/controller.svg" alt="Manette de jeu" />
-          play.pickaria.fr
-        </span>
+    <div class="flex gap-4 md:justify-start">
+      <span
+        class="bg-yellow-300 btn cursor-pointer"
+        href="#last_articles"
+        data-copy="play.pickaria.fr"
+      >
+        <img src="/assets/icons/controller.svg" alt="Manette de jeu" />
+        play.pickaria.fr
+      </span>
 
-        {{
-          comp.primary_button({
-            text: "Discord",
-            href: "https://discord.gg/YR6fVaS",
-            with_icon: true,
-          })
-        }}
-      </div>
+      {{
+        comp.primary_button({
+          text: "Discord",
+          href: "https://discord.gg/YR6fVaS",
+          with_icon: true,
+        })
+      }}
     </div>
-
-    <img
-      src="/assets/images/pickaria.png"
-      class="hidden lg:block mx-auto w-full h-auto drop-shadow-lg"
-      alt="Logo de Pickaria"
-      transform-images="avif webp jpg 768"
-    />
   </div>
+
+  <img
+    src="/assets/images/pickaria.png"
+    class="hidden lg:block mx-auto w-full h-auto drop-shadow-lg"
+    alt="Logo de Pickaria"
+    transform-images="avif webp jpg 768"
+  />
 </section>
 
 <section class="container mx-auto py-5 mt-20" id="features">
-  <h2 class="text-4xl lg:text-6xl font-bold lg:text-center">
+  <h2
+    class="text-4xl lg:text-6xl font-bold lg:text-center text-slate-900 dark:text-white"
+  >
     Découvre les fonctionnalités
   </h2>
 
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 md:mt-24">
-    <div
-      class="flex flex-col justify-between items-left rounded-xl bg-sky-100 p-6 gap-4"
-    >
+    <div class="feature-block flex-col">
       <div class="w-full lg:w-6/12 md:-mt-32">
         <img
           src="/assets/images/city.png"
@@ -76,9 +85,7 @@ menu:
       </div>
     </div>
 
-    <div
-      class="flex flex-col justify-between items-left rounded-xl bg-sky-100 p-6 gap-4"
-    >
+    <div class="feature-block flex-col">
       <div class="w-full lg:w-6/12 md:-mt-32">
         <img
           src="/assets/images/economy.png"
@@ -99,7 +106,7 @@ menu:
     </div>
 
     <div
-      class="md:col-span-2 flex flex-col lg:flex-row justify-between items-center rounded-xl bg-sky-100 p-10"
+      class="md:col-span-2 2xl:col-span-1 feature-block items-center flex-col lg:flex-row"
     >
       <div class="w-full lg:w-6/12 lg:order-last">
         <img
@@ -111,10 +118,46 @@ menu:
       </div>
 
       <div class="w-full lg:w-6/12">
-        <h3 class="text-2xl lg:text-5xl font-bold mb-3">Carte dynamique</h3>
+        <h3 class="text-2xl lg:text-5xl font-bold mb-3">Métiers</h3>
 
         <p class="text-lg lg:text-2xl">
-          Visualise le monde de Pickaria, ses villes et où sont tes amis !
+          Explore des rôles variés sur notre serveur Minecraft : mineur,
+          chasseur, commerçant, et plus encore ! Rejoins une communauté
+          dynamique et enrichis ton expérience de jeu.
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="grid md:col-span-2 2xl:col-span-1 grid-cols-1 lg:grid-cols-3 2xl:grid-cols-1 2xl:grid-rows-3 lg:flex-row gap-4"
+    >
+      <div class="flex flex-col feature-block justify-start">
+        <h3 class="text-lg lg:text-2xl font-bold">
+          Une expérience de jeu unique
+        </h3>
+
+        <p class="lg:text-lg">
+          Plonge dans une aventure inédite : l'expérience de jeu qui t'es
+          vraiment destinée !
+        </p>
+      </div>
+      <div class="flex flex-col feature-block justify-start">
+        <h3 class="text-lg lg:text-2xl font-bold">
+          Des plugins 100% sur-mesure
+        </h3>
+
+        <p class="lg:text-lg">
+          Des plugins taillés sur mesure pour une immersion totale, parce que
+          chaque joueur mérite le meilleur.
+        </p>
+      </div>
+      <div class="flex flex-col feature-block justify-start">
+        <h3 class="text-lg lg:text-2xl font-bold">
+          Joue complètement gratuitement
+        </h3>
+
+        <p class="lg:text-lg">
+          Pas de boutiques, que du fun ! Joue gratuitement, joue sans limites.
         </p>
       </div>
     </div>
@@ -122,7 +165,9 @@ menu:
 </section>
 
 <section class="container mx-auto py-5 mt-20" id="last_articles">
-  <h2 class="text-4xl lg:text-6xl font-bold lg:text-center">
+  <h2
+    class="text-4xl lg:text-6xl font-bold lg:text-center text-slate-900 dark:text-white"
+  >
     Le blog
   </h2>
 

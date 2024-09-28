@@ -19,7 +19,7 @@
 </script>
 
 <nav class="py-3" aria-label="Breadcrumb">
-  <ol class="flex flex-wrap text-sm items-center gap-2 text-gray-500">
+  <ol class="flex flex-wrap text-sm items-center gap-2 text-gray-500 dark:text-gray-300">
     {{ for item of breadcrumb }}
       <li>
         {{ if item.data }}
@@ -35,7 +35,12 @@
         {{ /if }}
       </li>
       <li class="last:hidden">
-        <img src="/assets/icons/slash.svg" alt="/" />
+        <img src="/assets/icons/slash.svg"
+          class="w-4 h-4 dark:invert" 
+          width="16"
+          height="16"
+          alt="/"
+        />
       </li>
     {{ /for }}
   </ol>

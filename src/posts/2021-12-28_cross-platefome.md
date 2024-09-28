@@ -9,6 +9,8 @@ oldUrl: /update/guide/2021/12/28/cross-platefome
 
 Depuis le temps que ça a été demandé, Pickaria est enfin accessible pour tous les joueurs jouant sur console via la version Bedrock.
 
+<!--more-->
+
 Rejoignez-nous que vous soyez sur téléphone, Xbox, PlayStation ou même Nintendo Switch !
 
 Pour nous rejoindre, rien de plus simple :\

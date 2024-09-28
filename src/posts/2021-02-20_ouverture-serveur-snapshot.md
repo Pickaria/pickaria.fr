@@ -10,6 +10,8 @@ oldUrl: /update/2021/02/20/ouverture-serveur-snapshot
 
 Les premières snapshot de la 1.17 sont là, envie de tester les nouveautés ? Rejoignez-nous !
 
+<!--more-->
+
 Le serveur snapshot vient d'ouvrir, vous pouvez y accéder en vous connectant à l'adresse `snapshot.pickaria.fr`
 avec la dernière snapshot, le serveur est toujours à jour !
 

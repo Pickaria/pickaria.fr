@@ -1,20 +1,20 @@
-<div class="text-center py-2 border-b">
+<div class="text-center py-2 border-b dark:border-gray-700 text-slate-900 dark:text-white">
   Adresse de connexion :
-  <span class="text-gray-500 cursor-pointer select-all">
+  <span class="text-gray-500 dark:text-gray-300 cursor-pointer" data-copy="play.pickaria.fr">
     play.pickaria.fr
   </span>
 </div>
 
 <header
-  class="flex flex-wrap items-center justify-center lg:justify-between py-3 gap-2 mb-4 border-b"
+  class="flex flex-wrap items-center justify-center lg:justify-between py-3 gap-2 mb-4 border-b dark:border-gray-700"
 >
   <div class="lg:w-1/3">
     <a
       href="/"
-      class="flex items-center font-bold gap-2 text-lg no-underline w-fit"
+      class="flex items-center font-bold gap-2 text-lg no-underline w-fit text-slate-900 dark:text-white"
     >
       <img
-        src="/assets/images/navicon.jpg"
+        src="/assets/images/logo.png"
         width="32"
         height="32"
         aria-label="Pickaria"
@@ -37,7 +37,7 @@
           {{ if entry.url == url }}
             <a
               href="{{ entry.url }}"
-              class="text-gray-600"
+              class="text-gray-600 dark:text-gray-300"
               aria-current="page"
             >
               {{ entry.title }}
@@ -45,7 +45,7 @@
           {{ else }}
             <a
               href="{{ entry.url }}"
-              class="text-black"
+              class="text-slate-900 dark:text-white"
             >
               {{ entry.title }}
             </a>

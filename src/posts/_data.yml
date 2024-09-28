@@ -1,3 +1,7 @@
 type: post
 layout: layouts/post.vto
 basename: blog
+
+metas:
+  image: $ img.cover attr(src)
+  description: =excerpt

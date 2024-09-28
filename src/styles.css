@@ -4,11 +4,78 @@
 
 @layer components {
   .btn {
-    @apply py-4 px-6 rounded-2xl flex gap-2 items-center transition duration-300
+    @apply py-4 px-6 rounded-3xl flex gap-2 items-center transition duration-300
       ease-in-out transform hover:scale-110 shadow;
+  }
+
+  .feature-block {
+    @apply flex justify-between rounded-3xl bg-sky-100 dark:bg-sky-950
+      text-slate-900 dark:text-white p-6 gap-4;
   }
 }
 
 details summary {
   @apply cursor-pointer;
+}
+
+@layer base {
+  /* latin */
+  @font-face {
+    font-family: "Josefin Sans";
+    font-style: italic;
+    font-weight: 100 700;
+    font-display: swap;
+    src: url(/assets/fonts/JosefinSans-Italic-VariableFont_wght.woff2)
+      format("woff2");
+    unicode-range:
+      U+0000-00FF,
+      U+0131,
+      U+0152-0153,
+      U+02BB-02BC,
+      U+02C6,
+      U+02DA,
+      U+02DC,
+      U+0304,
+      U+0308,
+      U+0329,
+      U+2000-206F,
+      U+2074,
+      U+20AC,
+      U+2122,
+      U+2191,
+      U+2193,
+      U+2212,
+      U+2215,
+      U+FEFF,
+      U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 100 700;
+    font-display: swap;
+    src: url(/assets/fonts/JosefinSans-VariableFont_wght.woff2) format("woff2");
+    unicode-range:
+      U+0000-00FF,
+      U+0131,
+      U+0152-0153,
+      U+02BB-02BC,
+      U+02C6,
+      U+02DA,
+      U+02DC,
+      U+0304,
+      U+0308,
+      U+0329,
+      U+2000-206F,
+      U+2074,
+      U+20AC,
+      U+2122,
+      U+2191,
+      U+2193,
+      U+2212,
+      U+2215,
+      U+FEFF,
+      U+FFFD;
+  }
 }
