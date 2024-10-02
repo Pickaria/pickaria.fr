@@ -9,11 +9,11 @@ layout: layouts/base.vto
   <header class="mb-4">
     {{ include "templates/breadcrumb.vto" }}
 
-    <h1 class="text-4xl lg:text-6xl font-bold p-name text-slate-900 dark:text-white" itemprop="name headline">
+    <h1 class="text-4xl lg:text-6xl font-bold p-name text-foreground" itemprop="name headline">
       {{ title }}
     </h1>
 
-    <p class="flex flex-wrap items-center text-gray-600 dark:text-gray-300">
+    <p class="flex flex-wrap items-center text-muted">
       <time datetime="{{ createdAt | date }}" itemprop="datePublished">
         {{ createdAt |> date("HUMAN_DATE", "fr") }}
       </time>
@@ -65,7 +65,7 @@ layout: layouts/base.vto
       </div>
 
       <nav>
-        <ul class="flex flex-col gap-4 lg:flex-row justify-between text-slate-900 dark:text-white">
+        <ul class="flex flex-col gap-4 lg:flex-row justify-between text-foreground">
           {{ set previousPost = search.previousPage(url, "type=post") }}
           {{ if previousPost }}
             <li class="text-left">

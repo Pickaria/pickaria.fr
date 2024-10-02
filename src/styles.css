@@ -2,20 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .btn {
-    @apply py-4 px-6 rounded-3xl flex gap-2 items-center transition duration-300
-      ease-in-out transform hover:scale-110 shadow;
+@layer base {
+  :root {
+    --background: theme(colors.slate.50);
+    --foreground: theme(colors.slate.950);
+    --foreground-secondary: theme(colors.slate.800);
+    --muted: theme(colors.gray.600);
+    --muted-secondary: theme(colors.gray.800);
   }
 
-  .feature-block {
-    @apply flex justify-between rounded-3xl bg-sky-100 dark:bg-sky-950
-      text-slate-900 dark:text-white p-6 gap-4;
+  [data-mode="dark"] {
+    --background: theme(colors.slate.950);
+    --foreground: theme(colors.slate.50);
+    --foreground-secondary: theme(colors.slate.200);
+    --muted: theme(colors.gray.400);
+    --muted-secondary: theme(colors.gray.200);
   }
 }
 
-details summary {
-  @apply cursor-pointer;
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
 }
 
 @layer base {
@@ -77,5 +85,21 @@ details summary {
       U+2215,
       U+FEFF,
       U+FFFD;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply py-4 px-6 rounded-3xl flex gap-2 items-center transition duration-300
+      ease-in-out transform hover:scale-110 shadow;
+  }
+
+  .feature-block {
+    @apply flex justify-between rounded-3xl bg-sky-100 dark:bg-sky-950
+      text-foreground p-6 gap-4;
+  }
+
+  details summary {
+    @apply cursor-pointer;
   }
 }

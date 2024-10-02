@@ -19,12 +19,12 @@
 </script>
 
 <nav class="py-3" aria-label="Breadcrumb">
-  <ol class="flex flex-wrap text-sm items-center gap-2 text-gray-500 dark:text-gray-300">
+  <ol class="flex flex-wrap text-sm items-center gap-2">
     {{ for item of breadcrumb }}
       <li>
         {{ if item.data }}
           {{ if item.data.url != url }}
-            <a href="{{ item.data.url }}">
+            <a href="{{ item.data.url }}" class="text-muted hover:text-muted-secondary">
               {{ item.data.title }}
             </a>
           {{ else }}

@@ -24,11 +24,20 @@ site
   .use(tailwindcss({
     options: {
       plugins: [typography],
-      /*darkMode: ['selector', '[data-mode="dark"]'],*/
+      darkMode: ['selector', '[data-mode="dark"]'],
       theme: {
         fontFamily: {
           sans: ["Josefin Sans", "system-ui", "sans-serif"],
           serif: ["system-ui", "serif"],
+        },
+        extend: {
+          colors: {
+            "background": "var(--background)",
+            "foreground": "var(--foreground)",
+            "foreground-secondary": "var(--foreground-secondary)",
+            "muted": "var(--muted)",
+            "muted-secondary": "var(--muted-secondary)",
+          },
         },
       },
     },
