@@ -1,0 +1,45 @@
+<header class="mb-4">
+  {{ include "templates/breadcrumb.vto" }}
+
+  <h1
+    class="text-4xl lg:text-6xl font-bold p-name text-foreground"
+    itemprop="name headline"
+  >
+    {{ title }}
+  </h1>
+
+  <p class="flex flex-wrap items-center text-muted">
+    <time datetime="{{ createdAt | date }}" itemprop="datePublished">
+      {{ createdAt |> date("HUMAN_DATE", "fr") }}
+    </time>
+
+    {{ if updatedAt }}
+      &nbsp;~ Dernière version :&nbsp;
+      <time datetime="{{ updatedAt | date }}" itemprop="dateModified">
+        {{ updatedAt |> date("HUMAN_DATE", "fr") }}
+      </time>
+    {{ /if }}
+
+    {{ if author }}
+      &nbsp;•&nbsp;
+      <span
+        class="flex items-center gap-2"
+        itemprop="author"
+        itemscope
+        itemtype="http://schema.org/Person"
+      >
+        <img
+          src="{{ '/assets/images/authors/' + author }}.jpg"
+          class="rounded-full border-2 border-white h-8 w-8"
+          width="32"
+          height="32"
+          alt="{{ author }}'s avatar"
+          transform-images="avif webp jpg 32"
+        />
+        <span class="p-author h-card" itemprop="name">
+          {{ author }}
+        </span>
+      </span>
+    {{ /if }}
+  </p>
+</header>

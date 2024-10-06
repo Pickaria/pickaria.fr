@@ -1,0 +1,6 @@
+type: wiki
+layout: layouts/wiki.vto
+basename: wiki
+
+metas:
+  description: =excerpt

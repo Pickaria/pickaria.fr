@@ -14,6 +14,7 @@ import tailwindcss from "lume/plugins/tailwindcss.ts";
 import transformImages from "lume/plugins/transform_images.ts";
 import typography from "npm:@tailwindcss/typography";
 import { fr } from "npm:date-fns/locale/fr";
+import toc from "https://deno.land/x/lume_markdown_plugins@v0.7.0/toc.ts";
 
 const site = lume({
   src: "./src",
@@ -47,6 +48,7 @@ site
   .use(picture())
   .use(transformImages())
   .use(svgo())
+  .use(toc())
   .use(redirects({
     output: "netlify",
   }))

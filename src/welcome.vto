@@ -1,0 +1,30 @@
+---
+layout: layouts/wiki.vto
+title: Wiki
+createdAt: 2024-10-06
+author: Quozul
+url: /wiki/
+menu:
+  visible: true
+  order: 2
+---
+
+<h1>Bienvenue sur Pickaria !</h1>
+
+Dans les pages qui suivent, tu trouveras les informations pour commencer ton
+aventure. Tu peux relire ce guide à tout moment avec la commande `/tuto`.
+
+<h2>Sommaire</h2>
+
+<ol>
+  {{ for post of search.pages("type=wiki", "createdAt=desc") }}
+    <li>
+      <a
+        class="text-muted hover:text-muted-secondary"
+        href="{{ post.url }}"
+      >
+        {{ post.title }}
+      </a>
+    </li>
+  {{ /for }}
+</ol>
