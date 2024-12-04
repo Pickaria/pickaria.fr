@@ -24,14 +24,14 @@ Mais grâce à cela nous pouvons apprendre de nos erreurs passées pour proposer
 Pickaria en 2021, c'était plusieurs plugins disponibles sur internet tels que [Towny](https://www.spigotmc.org/resources/72694/){target="_blank"}{rel="noopener noreferrer"}, [AuctionHouse](https://www.spigotmc.org/resources/61836/){target="_blank"}{rel="noopener noreferrer"}, [QuickShop](https://www.spigotmc.org/resources/62575/){target="_blank"}{rel="noopener noreferrer"} ou [EssentialsX](https://www.spigotmc.org/resources/9089/){target="_blank"}{rel="noopener noreferrer"} mais surtout un plugin développé sur-mesure par quelques membres du serveur.
 Utiliser des plugins déjà existants apporte des avantages, mais aussi des inconvénients, le principal inconvénient étant une mauvaise intégration entre eux et peu de customisation mais d'un autre côté, ils permettent de rajouter du contenu rapidement et facilement.
 
-{% picture /assets/images/articles/ou-est-pickaria/kame-temple.png class="img-fluid mb-3 rounded" loading="lazy" alt="Les magasins de Pickaria" %}
+![Temple de Kame](/assets/images/articles/ou-est-pickaria/kame-temple.png)
 
 ### Le contenu
 
 Malgré la vingtaine de plugin au total, le serveur ne proposait pas tant de contenu que ça. Une fois la fin du jeu atteint, il n'y avait rien de plus à faire qui était propre au serveur.
 Naturellement, la plupart des joueurs ont réalisé des constructions, toutes aussi impressionnantes les unes que les autres.
 
-{% picture /assets/images/articles/ou-est-pickaria/epee.png class="img-fluid mb-3 rounded" loading="lazy" alt="Les magasins de Pickaria" %}
+![Grande épée](/assets/images/articles/ou-est-pickaria/epee.png)
 
 ---
 

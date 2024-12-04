@@ -1,7 +1,10 @@
 menu_links:
-  #- href: https://map.pickaria.fr
-  #  text: Carte dynamique
-  #  header: true
+  - href: https://map.pickaria.fr
+    text: Carte dynamique
+    header: true
+  - href: https://pickaria.tebex.io/
+    text: Boutique
+    header: true
   - href: https://discord.gg/YR6fVaS
     text: Serveur discord
     rel: noopener noreferrer
