@@ -1,16 +1,4 @@
 menu_links:
-  - href: https://map.pickaria.fr
-    text: Carte dynamique
-    header: true
-  - href: https://pickaria.tebex.io/
-    text: Boutique
-    header: true
-  - href: https://discord.gg/YR6fVaS
-    text: Serveur discord
-    rel: noopener noreferrer
-    target: _blank
-  - href: https://status.pickaria.fr/
-    text: Statut
 
 social_links:
   - href: https://github.com/Pickaria
@@ -19,9 +7,6 @@ social_links:
   - href: https://twitter.com/pickaria
     name: Twitter
     icon: /assets/icons/twitter-x.svg
-  - href: https://discord.gg/YR6fVaS
-    name: Discord
-    icon: /assets/icons/discord.svg
   - href: https://www.instagram.com/pickariamc/
     name: Instagram
     icon: /assets/icons/instagram.svg
@@ -29,7 +14,7 @@ social_links:
 # Metas plugin https://lume.land/plugins/metas/#description
 metas:
   site: Pickaria
-  description: Serveur Minecraft survie convivial. Maintenant à jour en 1.20 !
+  description: Le serveur est fermé. Merci d'avoir joué.
   title: "=title"
   image: "=image"
   twitter: "@pickaria"
